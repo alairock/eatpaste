@@ -1,0 +1,159 @@
+2012-07-29 04:07:06 Error: [MissingControllerException] Controller class Install.phpController could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 04:14:12 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 04:14:13 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 04:14:14 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 04:14:15 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 04:14:56 Error: [MissingControllerException] Controller class PastesController could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 04:14:59 Error: [MissingControllerException] Controller class PastesController could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 04:22:38 Error: [MissingControllerException] Controller class PastesController could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 04:22:56 Error: [MissingControllerException] Controller class PastesController could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 04:22:56 Error: Fatal Error (1): Using $this when not in object context in [/Users/alairock/Sites/eatpaste/app/Config/database.php, line 60]
+2012-07-29 04:22:56 Error: [FatalErrorException] Using $this when not in object context
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Using $this whe...', '/Users/alairock...', 60)
+#1 [internal function]: ErrorHandler::handleError(1, 'Using $this whe...', '/Users/alairock...', 60, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Using $this whe...', '/Users/alairock...', 60, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 04:25:36 Error: [MissingControllerException] Controller class PastesController could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 04:25:36 Error: Fatal Error (1): Using $this when not in object context in [/Users/alairock/Sites/eatpaste/app/Config/database.php, line 62]
+2012-07-29 04:25:36 Error: [FatalErrorException] Using $this when not in object context
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Using $this whe...', '/Users/alairock...', 62)
+#1 [internal function]: ErrorHandler::handleError(1, 'Using $this whe...', '/Users/alairock...', 62, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Using $this whe...', '/Users/alairock...', 62, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 04:25:37 Error: [MissingControllerException] Controller class PastesController could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 04:25:37 Error: Fatal Error (1): Using $this when not in object context in [/Users/alairock/Sites/eatpaste/app/Config/database.php, line 62]
+2012-07-29 04:25:37 Error: [FatalErrorException] Using $this when not in object context
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Using $this whe...', '/Users/alairock...', 62)
+#1 [internal function]: ErrorHandler::handleError(1, 'Using $this whe...', '/Users/alairock...', 62, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Using $this whe...', '/Users/alairock...', 62, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 04:25:49 Error: Fatal Error (1): Using $this when not in object context in [/Users/alairock/Sites/eatpaste/app/Config/database.php, line 62]
+2012-07-29 04:25:49 Error: [FatalErrorException] Using $this when not in object context
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Using $this whe...', '/Users/alairock...', 62)
+#1 [internal function]: ErrorHandler::handleError(1, 'Using $this whe...', '/Users/alairock...', 62, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Using $this whe...', '/Users/alairock...', 62, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 04:25:51 Error: Fatal Error (1): Using $this when not in object context in [/Users/alairock/Sites/eatpaste/app/Config/database.php, line 62]
+2012-07-29 04:25:51 Error: [FatalErrorException] Using $this when not in object context
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Using $this whe...', '/Users/alairock...', 62)
+#1 [internal function]: ErrorHandler::handleError(1, 'Using $this whe...', '/Users/alairock...', 62, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Using $this whe...', '/Users/alairock...', 62, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 04:26:15 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 3430401 bytes) in [/Users/alairock/Sites/eatpaste/lib/Cake/basics.php, line 227]
+2012-07-29 04:26:15 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 3430401 bytes)
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Allowed memory ...', '/Users/alairock...', 227)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', '/Users/alairock...', 227, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', '/Users/alairock...', 227, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 04:36:34 Error: [MissingControllerException] Controller class PastesController could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 04:36:35 Error: [MissingControllerException] Controller class PastesController could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 04:41:53 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/View/Pages/home.ctp, line 52]
+2012-07-29 04:41:53 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 52)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 52, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 52, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 04:41:54 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/View/Pages/home.ctp, line 52]
+2012-07-29 04:41:54 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 52)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 52, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 52, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 04:42:06 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/View/Pages/home.ctp, line 69]
+2012-07-29 04:42:06 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 69)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 69, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 69, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 04:42:08 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/View/Pages/home.ctp, line 69]
+2012-07-29 04:42:08 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 69)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 69, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 69, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 04:42:11 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/View/Pages/home.ctp, line 69]
+2012-07-29 04:42:11 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 69)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 69, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 69, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 04:42:12 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/View/Pages/home.ctp, line 69]
+2012-07-29 04:42:12 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 69)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 69, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 69, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 04:45:32 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/Config/routes.php, line 31]
+2012-07-29 04:45:32 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 31, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 31, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 04:45:33 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/Config/routes.php, line 31]
+2012-07-29 04:45:33 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 31, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 31, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 04:45:50 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/Config/routes.php, line 31]
+2012-07-29 04:45:50 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 31, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 31, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
