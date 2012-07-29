@@ -1,1 +1,10 @@
-README
+Installation:
+
+REQUIREMENTS:
+PHP 5.2.8
+MySQL 5.0
+
+THE INSTALL
+1) Create a database, some hosts will require you to create a user as well, and tie the user to the database
+2) Enter in your database connection information: Host, DBUser, DBPass, DBName and DBPrefix
+3) If the information is correct, the installer should automatically connect to and import initial data to your database.
