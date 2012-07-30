@@ -18,3 +18,6 @@ CREATE TABLE IF NOT EXISTS `users` (
   `modified` datetime default NULL,
   PRIMARY KEY  (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+INSERT INTO `users` (`id`, `username`, `password`, `role`, `created`, `modified`) VALUES
+('', 'paste_username', 'paste_password', 'admin', NOW(), NOW());

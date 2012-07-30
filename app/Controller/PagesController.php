@@ -72,4 +72,8 @@ class PagesController extends AppController {
 		$this->set(compact('page', 'subpage', 'title_for_layout'));
 		$this->render(implode('/', $path));
 	}
+	public function beforeFilter() {
+		$this->Auth->allow('display', 'default', 'page');
+		$this->set('auth', $this->Auth->user());
+	}
 }

@@ -42,6 +42,6 @@
 			<div class="footer-right">Eat. Paste. Remember (Your code!)</div>
 		</div
 	</div>
-
+<?php 		echo $this->element('sql_dump');  ?>
 </body>
 </html>

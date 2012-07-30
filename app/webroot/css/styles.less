@@ -186,7 +186,7 @@ table {
 
 }
 /* form junk! */
-input#PasteTitle, input#UserUsername, input#UserPassword, textarea {
+p > input, input#PasteTitle, input#UserUsername, input#UserPassword, textarea {
 	padding: 6px;
 	font-size: 14px;
 	width: 350px; 
@@ -196,4 +196,27 @@ input#PasteTitle, input#UserUsername, input#UserPassword, textarea {
     -khtml-border-radius: 4px;
     border-radius: 4px;
 }
+.notice {
+	padding: 4px;
+	margin-top: 10px;
+	color: white;
+	text-shadow:1px 2px 8px #287ace;
+}
+
+.notice {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ce0100), color-stop(1, #fe1a00) );
+	background:-moz-linear-gradient( center top, #ce0100 5%, #fe1a00 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce0100', endColorstr='#fe1a00');
+	background-color:#ce0100;
+}
+
+.success{
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #77a809), color-stop(1, #89c403) );
+	background:-moz-linear-gradient( center top, #77a809 5%, #89c403 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77a809', endColorstr='#89c403');
+	background-color:#77a809;
+}
+
+
+
 
