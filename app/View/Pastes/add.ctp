@@ -1,19 +1,9 @@
-<div class="pastes form">
+<div class="body-block">
 <?php echo $this->Form->create('Paste'); ?>
-	<fieldset>
-		<legend><?php echo __('Add Paste'); ?></legend>
-	<?php
-		echo $this->Form->input('title');
-		echo $this->Form->input('paste_data');
-		echo 'Language: ' . $this->Form->select('type', $langs);
+<?php
+		echo $this->Form->input('title', array('placeholder' => 'Title', 'label' => false));
+		echo $this->Form->input('paste_data', array('placeholder' => 'Paste your code here!', 'label' => false));
+		echo 'Language: ' . $this->Form->select('type', $langs, array('default' => 'php'));
 	?>
-	</fieldset>
 <?php echo $this->Form->end(__('Submit')); ?>
-</div>
-<div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
-	<ul>
-
-		<li><?php echo $this->Html->link(__('List Pastes'), array('action' => 'index')); ?></li>
-	</ul>
 </div>

@@ -117,9 +117,9 @@ class PastesController extends AppController {
 		}
 		if ($this->Paste->delete()) {
 			$this->Session->setFlash(__('Paste deleted'));
-			$this->redirect(array('action' => 'index'));
+			$this->redirect(array('action' => 'index', 'admin' => false));
 		}
 		$this->Session->setFlash(__('Paste was not deleted'));
-		$this->redirect(array('action' => 'index'));
+		$this->redirect(array('action' => 'index', 'admin' => false));
 	}
 }

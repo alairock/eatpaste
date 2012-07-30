@@ -7,11 +7,13 @@
 		<td><?php echo $this->Html->link(h($paste['Paste']['title']), array('action' => 'view', $paste['Paste']['id'])); ?>&nbsp;</td>
 		<td><?php echo h($paste['Paste']['type']); ?>&nbsp;</td>
 		<td><?php echo date('M d, Y h:i:s a', strtotime(h($paste['Paste']['created']))); ?>&nbsp;</td>
+		<?php if (isset($auth) and $auth): ?>
 		<td class="actions">
 			<?php echo $this->Html->link(__('View'), array('action' => 'view', $paste['Paste']['id'])); ?>
-			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $paste['Paste']['id'])); ?>
-			<?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $paste['Paste']['id']), null, __('Are you sure you want to delete # %s?', $paste['Paste']['id'])); ?>
+			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', 'admin' => true, $paste['Paste']['id'])); ?>
+			<?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', 'admin' => true, $paste['Paste']['id']), null, __('Are you sure you want to delete # %s?', $paste['Paste']['id'])); ?>
 		</td>
+		<?php endif; ?>
 	</tr>
 	<?php endforeach; ?>
 	</table>
