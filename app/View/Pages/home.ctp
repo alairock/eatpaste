@@ -7,8 +7,9 @@
 		else: ?>
 			<?php $sqlData = $this->element('installSql'); ?>
 			<?php $sqlData = str_replace('pastes', $_POST['dbprefix'] . 'pastes', $sqlData); ?>
+			<?php $sqlData = str_replace('users', $_POST['dbprefix'] . 'users', $sqlData); ?>
 			<?php pr($sqlData);  ?>
-			<?php $mysqli->query($sqlData); ?>
+			<?php $mysqli->multi_query($sqlData); ?>
 			<?php $mysqli->close(); ?>
 			<?php $currentDir = getcwd();
 				$root = str_replace('/app/webroot', '', $currentDir);

@@ -343,3 +343,1951 @@
 2012-07-29 07:12:37 Error: [MissingControllerException] Controller class PastesController could not be found.
 #0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2012-07-29 07:46:54 Error: Fatal Error (1): Call to a member function post() on a non-object in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 47]
+2012-07-29 07:46:54 Error: [FatalErrorException] Call to a member function post() on a non-object
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/alairock...', 47)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/alairock...', 47, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/alairock...', 47, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 07:46:59 Error: Fatal Error (1): Call to a member function post() on a non-object in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 47]
+2012-07-29 07:46:59 Error: [FatalErrorException] Call to a member function post() on a non-object
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/alairock...', 47)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/alairock...', 47, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/alairock...', 47, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 07:47:00 Error: Fatal Error (1): Call to a member function post() on a non-object in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 47]
+2012-07-29 07:47:00 Error: [FatalErrorException] Call to a member function post() on a non-object
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/alairock...', 47)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/alairock...', 47, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/alairock...', 47, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 07:47:00 Error: Fatal Error (1): Call to a member function post() on a non-object in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 47]
+2012-07-29 07:47:00 Error: [FatalErrorException] Call to a member function post() on a non-object
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/alairock...', 47)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/alairock...', 47, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/alairock...', 47, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 07:47:01 Error: Fatal Error (1): Call to a member function post() on a non-object in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 47]
+2012-07-29 07:47:01 Error: [FatalErrorException] Call to a member function post() on a non-object
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/alairock...', 47)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/alairock...', 47, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/alairock...', 47, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 07:47:01 Error: Fatal Error (1): Call to a member function post() on a non-object in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 47]
+2012-07-29 07:47:01 Error: [FatalErrorException] Call to a member function post() on a non-object
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/alairock...', 47)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/alairock...', 47, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/alairock...', 47, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 07:47:01 Error: Fatal Error (1): Call to a member function post() on a non-object in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 47]
+2012-07-29 07:47:01 Error: [FatalErrorException] Call to a member function post() on a non-object
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/alairock...', 47)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/alairock...', 47, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/alairock...', 47, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 07:47:02 Error: Fatal Error (1): Call to a member function post() on a non-object in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 47]
+2012-07-29 07:47:02 Error: [FatalErrorException] Call to a member function post() on a non-object
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/alairock...', 47)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/alairock...', 47, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/alairock...', 47, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 07:47:02 Error: Fatal Error (1): Call to a member function post() on a non-object in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 47]
+2012-07-29 07:47:02 Error: [FatalErrorException] Call to a member function post() on a non-object
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/alairock...', 47)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/alairock...', 47, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/alairock...', 47, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 07:47:03 Error: Fatal Error (1): Call to a member function post() on a non-object in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 47]
+2012-07-29 07:47:03 Error: [FatalErrorException] Call to a member function post() on a non-object
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/alairock...', 47)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/alairock...', 47, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/alairock...', 47, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 08:30:06 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('UPDATE `eatpast...', Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Model/Datasource/Database/Mysql.php(357): DboSource->execute('UPDATE `eatpast...')
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Model/Model.php(1715): Mysql->update(Object(Paste), Array, Array)
+#4 /Users/alairock/Sites/eatpaste/app/Controller/PastesController.php(36): Model->save(Array)
+#5 [internal function]: PastesController->view('5014e43f-aaec-4...')
+#6 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PastesController), Array)
+#7 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-07-29 08:30:06 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('UPDATE `eatpast...', Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Model/Datasource/Database/Mysql.php(357): DboSource->execute('UPDATE `eatpast...')
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Model/Model.php(1715): Mysql->update(Object(Paste), Array, Array)
+#4 /Users/alairock/Sites/eatpaste/app/Controller/PastesController.php(36): Model->save(Array)
+#5 [internal function]: PastesController->view('5014e43f-aaec-4...')
+#6 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PastesController), Array)
+#7 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-07-29 08:31:02 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('UPDATE `eatpast...', Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Model/Datasource/Database/Mysql.php(357): DboSource->execute('UPDATE `eatpast...')
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Model/Model.php(1715): Mysql->update(Object(Paste), Array, Array)
+#4 /Users/alairock/Sites/eatpaste/app/Controller/PastesController.php(36): Model->save(Array)
+#5 [internal function]: PastesController->view('5014e43f-aaec-4...')
+#6 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PastesController), Array)
+#7 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-07-29 08:31:41 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('UPDATE `eatpast...', Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Model/Datasource/Database/Mysql.php(357): DboSource->execute('UPDATE `eatpast...')
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Model/Model.php(1715): Mysql->update(Object(Paste), Array, Array)
+#4 /Users/alairock/Sites/eatpaste/app/Controller/PastesController.php(36): Model->save(Array)
+#5 [internal function]: PastesController->view('5014e43f-aaec-4...')
+#6 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PastesController), Array)
+#7 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-07-29 08:31:43 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('UPDATE `eatpast...', Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Model/Datasource/Database/Mysql.php(357): DboSource->execute('UPDATE `eatpast...')
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Model/Model.php(1715): Mysql->update(Object(Paste), Array, Array)
+#4 /Users/alairock/Sites/eatpaste/app/Controller/PastesController.php(36): Model->save(Array)
+#5 [internal function]: PastesController->view('5014e43f-aaec-4...')
+#6 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PastesController), Array)
+#7 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-07-29 08:34:00 Error: [NotFoundException] Invalid paste
+#0 [internal function]: PastesController->view('5014e43f-aaec-4...')
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PastesController), Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-29 08:34:01 Error: [NotFoundException] Invalid paste
+#0 [internal function]: PastesController->view('5014e43f-aaec-4...')
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PastesController), Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-29 08:34:03 Error: [NotFoundException] Invalid paste
+#0 [internal function]: PastesController->view('5014e43f-aaec-4...')
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PastesController), Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-29 08:45:50 Error: [MissingActionException] Action PastesController::edit() could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-29 16:28:10 Error: [MissingActionException] Action PastesController::edit() could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-29 16:30:33 Error: [MissingActionException] Action PastesController::edit() could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-29 16:47:51 Error: [MissingTableException] Table ep_pastes for model Paste was not found in datasource default.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Model/Model.php(3180): Model->setSource('pastes')
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Component/PaginatorComponent.php(173): Model->find('all', Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Controller.php(1082): PaginatorComponent->paginate(NULL, Array, Array)
+#4 /Users/alairock/Sites/eatpaste/app/Controller/PastesController.php(18): Controller->paginate()
+#5 [internal function]: PastesController->index()
+#6 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PastesController), Array)
+#7 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-07-29 17:14:03 Error: Fatal Error (64): Cannot redeclare UsersController::beforeFilter() in [/Users/alairock/Sites/eatpaste/app/Controller/UsersController.php, line 69]
+2012-07-29 17:14:03 Error: [FatalErrorException] Cannot redeclare UsersController::beforeFilter()
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Users/alairock...', 69)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Users/alairock...', 69, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Users/alairock...', 69, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 17:14:11 Error: Fatal Error (64): Cannot redeclare UsersController::beforeFilter() in [/Users/alairock/Sites/eatpaste/app/Controller/UsersController.php, line 69]
+2012-07-29 17:14:11 Error: [FatalErrorException] Cannot redeclare UsersController::beforeFilter()
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Users/alairock...', 69)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Users/alairock...', 69, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Users/alairock...', 69, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 17:14:21 Error: Fatal Error (64): Cannot redeclare UsersController::beforeFilter() in [/Users/alairock/Sites/eatpaste/app/Controller/UsersController.php, line 69]
+2012-07-29 17:14:21 Error: [FatalErrorException] Cannot redeclare UsersController::beforeFilter()
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Users/alairock...', 69)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Users/alairock...', 69, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Users/alairock...', 69, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 17:14:22 Error: Fatal Error (64): Cannot redeclare UsersController::beforeFilter() in [/Users/alairock/Sites/eatpaste/app/Controller/UsersController.php, line 69]
+2012-07-29 17:14:22 Error: [FatalErrorException] Cannot redeclare UsersController::beforeFilter()
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Users/alairock...', 69)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Users/alairock...', 69, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Users/alairock...', 69, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 17:14:49 Error: Fatal Error (64): Cannot redeclare UsersController::beforeFilter() in [/Users/alairock/Sites/eatpaste/app/Controller/UsersController.php, line 69]
+2012-07-29 17:14:49 Error: [FatalErrorException] Cannot redeclare UsersController::beforeFilter()
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Users/alairock...', 69)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Users/alairock...', 69, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Users/alairock...', 69, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 17:17:51 Error: Fatal Error (64): Cannot redeclare UsersController::beforeFilter() in [/Users/alairock/Sites/eatpaste/app/Controller/UsersController.php, line 69]
+2012-07-29 17:17:51 Error: [FatalErrorException] Cannot redeclare UsersController::beforeFilter()
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Users/alairock...', 69)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Users/alairock...', 69, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Users/alairock...', 69, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 17:18:11 Error: Fatal Error (64): Cannot redeclare UsersController::beforeFilter() in [/Users/alairock/Sites/eatpaste/app/Controller/UsersController.php, line 69]
+2012-07-29 17:18:11 Error: [FatalErrorException] Cannot redeclare UsersController::beforeFilter()
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Users/alairock...', 69)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Users/alairock...', 69, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Users/alairock...', 69, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 17:23:38 Error: Fatal Error (64): Cannot redeclare UsersController::beforeFilter() in [/Users/alairock/Sites/eatpaste/app/Controller/UsersController.php, line 69]
+2012-07-29 17:23:38 Error: [FatalErrorException] Cannot redeclare UsersController::beforeFilter()
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Users/alairock...', 69)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Users/alairock...', 69, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Users/alairock...', 69, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 17:23:42 Error: Fatal Error (64): Cannot redeclare UsersController::beforeFilter() in [/Users/alairock/Sites/eatpaste/app/Controller/UsersController.php, line 69]
+2012-07-29 17:23:42 Error: [FatalErrorException] Cannot redeclare UsersController::beforeFilter()
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Users/alairock...', 69)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Users/alairock...', 69, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Users/alairock...', 69, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 17:25:01 Error: Fatal Error (64): Cannot redeclare UsersController::beforeFilter() in [/Users/alairock/Sites/eatpaste/app/Controller/UsersController.php, line 69]
+2012-07-29 17:25:01 Error: [FatalErrorException] Cannot redeclare UsersController::beforeFilter()
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Users/alairock...', 69)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Users/alairock...', 69, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Users/alairock...', 69, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 17:25:01 Error: Fatal Error (64): Cannot redeclare UsersController::beforeFilter() in [/Users/alairock/Sites/eatpaste/app/Controller/UsersController.php, line 69]
+2012-07-29 17:25:01 Error: [FatalErrorException] Cannot redeclare UsersController::beforeFilter()
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Users/alairock...', 69)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Users/alairock...', 69, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Users/alairock...', 69, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 17:29:06 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: UsersController->delete('1')
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-29 17:31:50 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: UsersController->delete('1')
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-29 17:31:57 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: UsersController->delete()
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-29 17:32:06 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: UsersController->delete('1')
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-29 17:32:18 Error: [MissingActionException] Action UsersController::delete() could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-29 17:35:54 Error: [MissingActionException] Action UsersController::delete() could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-29 17:44:04 Error: [MissingActionException] Action PastesController::edit() could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-29 18:01:55 Error: Fatal Error (4): parse error, expecting `')'' in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 11]
+2012-07-29 18:01:55 Error: [FatalErrorException] parse error, expecting `')''
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/alairock...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/alairock...', 11, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/alairock...', 11, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 18:01:58 Error: Fatal Error (4): parse error, expecting `')'' in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 11]
+2012-07-29 18:01:58 Error: [FatalErrorException] parse error, expecting `')''
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/alairock...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/alairock...', 11, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/alairock...', 11, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 18:02:07 Error: Fatal Error (4): parse error, expecting `')'' in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 11]
+2012-07-29 18:02:07 Error: [FatalErrorException] parse error, expecting `')''
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/alairock...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/alairock...', 11, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/alairock...', 11, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 18:02:08 Error: Fatal Error (4): parse error, expecting `')'' in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 11]
+2012-07-29 18:02:08 Error: [FatalErrorException] parse error, expecting `')''
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/alairock...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/alairock...', 11, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/alairock...', 11, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 18:02:11 Error: Fatal Error (4): parse error, expecting `')'' in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 11]
+2012-07-29 18:02:11 Error: [FatalErrorException] parse error, expecting `')''
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/alairock...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/alairock...', 11, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/alairock...', 11, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 18:17:11 Error: Fatal Error (4): parse error, expecting `')'' in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 11]
+2012-07-29 18:17:11 Error: [FatalErrorException] parse error, expecting `')''
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/alairock...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/alairock...', 11, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/alairock...', 11, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 18:18:10 Error: Fatal Error (4): parse error, expecting `')'' in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 11]
+2012-07-29 18:18:10 Error: [FatalErrorException] parse error, expecting `')''
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/alairock...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/alairock...', 11, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/alairock...', 11, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 18:21:25 Error: Fatal Error (4): parse error, expecting `')'' in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 11]
+2012-07-29 18:21:25 Error: [FatalErrorException] parse error, expecting `')''
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/alairock...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/alairock...', 11, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/alairock...', 11, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 18:23:19 Error: Fatal Error (4): parse error, expecting `')'' in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 11]
+2012-07-29 18:23:19 Error: [FatalErrorException] parse error, expecting `')''
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/alairock...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/alairock...', 11, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/alairock...', 11, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 18:23:47 Error: Fatal Error (4): parse error, expecting `')'' in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 11]
+2012-07-29 18:23:47 Error: [FatalErrorException] parse error, expecting `')''
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/alairock...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/alairock...', 11, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/alairock...', 11, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 18:24:59 Error: Fatal Error (4): parse error, expecting `')'' in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 11]
+2012-07-29 18:24:59 Error: [FatalErrorException] parse error, expecting `')''
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/alairock...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/alairock...', 11, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/alairock...', 11, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 18:28:07 Error: Fatal Error (4): parse error, expecting `')'' in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 11]
+2012-07-29 18:28:07 Error: [FatalErrorException] parse error, expecting `')''
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/alairock...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/alairock...', 11, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/alairock...', 11, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 18:28:17 Error: [MissingPluginException] Plugin Geshi could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(364): CakePlugin::path('Geshi')
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(225): App::pluginPath('Geshi')
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(542): App::path('View/Helper', 'Geshi')
+#3 [internal function]: App::load('HighlightHelper')
+#4 [internal function]: spl_autoload_call('HighlightHelper')
+#5 /Users/alairock/Sites/eatpaste/lib/Cake/View/HelperCollection.php(129): class_exists('HighlightHelper')
+#6 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(861): HelperCollection->load('Geshi.Highlight', Array)
+#7 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(468): View->loadHelpers()
+#8 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#9 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#10 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-29 18:28:25 Error: [MissingPluginException] Plugin Geshi could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(364): CakePlugin::path('Geshi')
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(225): App::pluginPath('Geshi')
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(542): App::path('View/Helper', 'Geshi')
+#3 [internal function]: App::load('GeshiHelper')
+#4 [internal function]: spl_autoload_call('GeshiHelper')
+#5 /Users/alairock/Sites/eatpaste/lib/Cake/View/HelperCollection.php(129): class_exists('GeshiHelper')
+#6 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(861): HelperCollection->load('Geshi.Geshi', Array)
+#7 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(468): View->loadHelpers()
+#8 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#9 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#10 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-29 18:28:26 Error: [MissingPluginException] Plugin Geshi could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(364): CakePlugin::path('Geshi')
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(225): App::pluginPath('Geshi')
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(542): App::path('View/Helper', 'Geshi')
+#3 [internal function]: App::load('GeshiHelper')
+#4 [internal function]: spl_autoload_call('GeshiHelper')
+#5 /Users/alairock/Sites/eatpaste/lib/Cake/View/HelperCollection.php(129): class_exists('GeshiHelper')
+#6 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(861): HelperCollection->load('Geshi.Geshi', Array)
+#7 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(468): View->loadHelpers()
+#8 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#9 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#10 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-29 18:28:26 Error: [MissingPluginException] Plugin Geshi could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(364): CakePlugin::path('Geshi')
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(225): App::pluginPath('Geshi')
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(542): App::path('View/Helper', 'Geshi')
+#3 [internal function]: App::load('GeshiHelper')
+#4 [internal function]: spl_autoload_call('GeshiHelper')
+#5 /Users/alairock/Sites/eatpaste/lib/Cake/View/HelperCollection.php(129): class_exists('GeshiHelper')
+#6 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(861): HelperCollection->load('Geshi.Geshi', Array)
+#7 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(468): View->loadHelpers()
+#8 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#9 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#10 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-29 18:28:27 Error: [MissingPluginException] Plugin Geshi could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(364): CakePlugin::path('Geshi')
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(225): App::pluginPath('Geshi')
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(542): App::path('View/Helper', 'Geshi')
+#3 [internal function]: App::load('GeshiHelper')
+#4 [internal function]: spl_autoload_call('GeshiHelper')
+#5 /Users/alairock/Sites/eatpaste/lib/Cake/View/HelperCollection.php(129): class_exists('GeshiHelper')
+#6 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(861): HelperCollection->load('Geshi.Geshi', Array)
+#7 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(468): View->loadHelpers()
+#8 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#9 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#10 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-29 18:28:27 Error: [MissingPluginException] Plugin Geshi could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(364): CakePlugin::path('Geshi')
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(225): App::pluginPath('Geshi')
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(542): App::path('View/Helper', 'Geshi')
+#3 [internal function]: App::load('GeshiHelper')
+#4 [internal function]: spl_autoload_call('GeshiHelper')
+#5 /Users/alairock/Sites/eatpaste/lib/Cake/View/HelperCollection.php(129): class_exists('GeshiHelper')
+#6 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(861): HelperCollection->load('Geshi.Geshi', Array)
+#7 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(468): View->loadHelpers()
+#8 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#9 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#10 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-29 18:28:28 Error: [MissingPluginException] Plugin Geshi could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(364): CakePlugin::path('Geshi')
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(225): App::pluginPath('Geshi')
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(542): App::path('View/Helper', 'Geshi')
+#3 [internal function]: App::load('GeshiHelper')
+#4 [internal function]: spl_autoload_call('GeshiHelper')
+#5 /Users/alairock/Sites/eatpaste/lib/Cake/View/HelperCollection.php(129): class_exists('GeshiHelper')
+#6 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(861): HelperCollection->load('Geshi.Geshi', Array)
+#7 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(468): View->loadHelpers()
+#8 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#9 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#10 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-29 18:28:28 Error: [MissingPluginException] Plugin Geshi could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(364): CakePlugin::path('Geshi')
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(225): App::pluginPath('Geshi')
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(542): App::path('View/Helper', 'Geshi')
+#3 [internal function]: App::load('GeshiHelper')
+#4 [internal function]: spl_autoload_call('GeshiHelper')
+#5 /Users/alairock/Sites/eatpaste/lib/Cake/View/HelperCollection.php(129): class_exists('GeshiHelper')
+#6 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(861): HelperCollection->load('Geshi.Geshi', Array)
+#7 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(468): View->loadHelpers()
+#8 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#9 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#10 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-29 18:28:29 Error: [MissingPluginException] Plugin Geshi could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(364): CakePlugin::path('Geshi')
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(225): App::pluginPath('Geshi')
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(542): App::path('View/Helper', 'Geshi')
+#3 [internal function]: App::load('GeshiHelper')
+#4 [internal function]: spl_autoload_call('GeshiHelper')
+#5 /Users/alairock/Sites/eatpaste/lib/Cake/View/HelperCollection.php(129): class_exists('GeshiHelper')
+#6 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(861): HelperCollection->load('Geshi.Geshi', Array)
+#7 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(468): View->loadHelpers()
+#8 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#9 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#10 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-29 18:29:10 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/View/Pastes/view.ctp, line 16]
+2012-07-29 18:29:10 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 16, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 16, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 18:29:11 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/View/Pastes/view.ctp, line 16]
+2012-07-29 18:29:11 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 16, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 16, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 18:29:15 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/View/Pastes/view.ctp, line 16]
+2012-07-29 18:29:15 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 16, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 16, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 18:29:32 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/View/Pastes/view.ctp, line 16]
+2012-07-29 18:29:32 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 16, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 16, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 18:29:34 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/View/Pastes/view.ctp, line 16]
+2012-07-29 18:29:34 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 16, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 16, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 18:29:46 Error: [MissingPluginException] Plugin Geshi could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(364): CakePlugin::path('Geshi')
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(225): App::pluginPath('Geshi')
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(542): App::path('View/Helper', 'Geshi')
+#3 [internal function]: App::load('GeshiHelper')
+#4 [internal function]: spl_autoload_call('GeshiHelper')
+#5 /Users/alairock/Sites/eatpaste/lib/Cake/View/HelperCollection.php(129): class_exists('GeshiHelper')
+#6 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(861): HelperCollection->load('Geshi.Geshi', Array)
+#7 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(468): View->loadHelpers()
+#8 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#9 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#10 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-29 18:33:56 Error: [MissingHelperException] Helper class GeshiHelper could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(861): HelperCollection->load('Geshi.Geshi', Array)
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(468): View->loadHelpers()
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#4 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#5 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-07-29 18:33:58 Error: [MissingHelperException] Helper class GeshiHelper could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(861): HelperCollection->load('Geshi.Geshi', Array)
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(468): View->loadHelpers()
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#4 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#5 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-07-29 18:35:43 Error: [MissingHelperException] Helper class GeshiHelper could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(861): HelperCollection->load('Geshi.Geshi', Array)
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(468): View->loadHelpers()
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#4 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#5 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-07-29 18:35:44 Error: [MissingHelperException] Helper class GeshiHelper could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(861): HelperCollection->load('Geshi.Geshi', Array)
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(468): View->loadHelpers()
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#4 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#5 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-07-29 18:35:47 Error: [MissingHelperException] Helper class GeshiHelper could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(861): HelperCollection->load('Geshi.Geshi', Array)
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(468): View->loadHelpers()
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#4 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#5 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-07-29 18:35:47 Error: [MissingHelperException] Helper class GeshiHelper could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(861): HelperCollection->load('Geshi.Geshi', Array)
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(468): View->loadHelpers()
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#4 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#5 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-07-29 18:35:47 Error: [MissingHelperException] Helper class GeshiHelper could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(861): HelperCollection->load('Geshi.Geshi', Array)
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(468): View->loadHelpers()
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#4 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#5 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-07-29 18:35:48 Error: [MissingHelperException] Helper class GeshiHelper could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(861): HelperCollection->load('Geshi.Geshi', Array)
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(468): View->loadHelpers()
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#4 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#5 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-07-29 18:36:28 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/View/Pastes/view.ctp, line 16]
+2012-07-29 18:36:28 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 16, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 16, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 18:36:30 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/View/Pastes/view.ctp, line 16]
+2012-07-29 18:36:30 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 16, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 16, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 18:54:33 Error: Fatal Error (1): Class 'CleanerHelper' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/Test/Case/View/Helper/GeshiHelperTest.php, line 11]
+2012-07-29 18:54:33 Error: [FatalErrorException] Class 'CleanerHelper' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'CleanerH...', '/Users/alairock...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'CleanerH...', '/Users/alairock...', 11, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'CleanerH...', '/Users/alairock...', 11, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 18:54:46 Error: Fatal Error (1): Class 'View' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/Test/Case/View/Helper/GeshiHelperTest.php, line 11]
+2012-07-29 18:54:46 Error: [FatalErrorException] Class 'View' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'View' no...', '/Users/alairock...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'View' no...', '/Users/alairock...', 11, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'View' no...', '/Users/alairock...', 11, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 18:54:47 Error: Fatal Error (1): Class 'View' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/Test/Case/View/Helper/GeshiHelperTest.php, line 11]
+2012-07-29 18:54:47 Error: [FatalErrorException] Class 'View' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'View' no...', '/Users/alairock...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'View' no...', '/Users/alairock...', 11, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'View' no...', '/Users/alairock...', 11, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 18:55:56 Error: Fatal Error (1): Call to undefined function import() in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/Test/Case/View/Helper/GeshiHelperTest.php, line 3]
+2012-07-29 18:55:56 Error: [FatalErrorException] Call to undefined function import()
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/alairock...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/alairock...', 3, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/alairock...', 3, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 18:57:32 Error: Fatal Error (1): Call to undefined method PHPUnit_Framework_AssertionFailedError::getComparisonFailure() in [/Users/alairock/Sites/eatpaste/lib/Cake/TestSuite/Reporter/CakeHtmlReporter.php, line 252]
+2012-07-29 18:57:32 Error: [FatalErrorException] Call to undefined method PHPUnit_Framework_AssertionFailedError::getComparisonFailure()
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/alairock...', 252)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/alairock...', 252, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/alairock...', 252, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 18:59:33 Error: [MissingDatasourceConfigException] The datasource configuration "test" was not found in database.php
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Model/ConnectionManager.php(94): ConnectionManager::_getConnectionObject('test')
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/TestSuite/Fixture/CakeFixtureManager.php(93): ConnectionManager::getDataSource('test')
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/TestSuite/Fixture/CakeFixtureManager.php(72): CakeFixtureManager->_initDb()
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/TestSuite/CakeTestRunner.php(52): CakeFixtureManager->fixturize(Object(PastesControllerTest))
+#4 /Users/alairock/Sites/eatpaste/lib/Cake/TestSuite/CakeTestSuiteCommand.php(111): CakeTestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#5 /Users/alairock/Sites/eatpaste/lib/Cake/TestSuite/CakeTestSuiteDispatcher.php(242): CakeTestSuiteCommand->run(Array)
+#6 /Users/alairock/Sites/eatpaste/lib/Cake/TestSuite/CakeTestSuiteDispatcher.php(99): CakeTestSuiteDispatcher->_runTestCase()
+#7 /Users/alairock/Sites/eatpaste/lib/Cake/TestSuite/CakeTestSuiteDispatcher.php(116): CakeTestSuiteDispatcher->dispatch()
+#8 /Users/alairock/Sites/eatpaste/app/webroot/test.php(92): CakeTestSuiteDispatcher::run()
+#9 {main}
+2012-07-29 18:59:38 Error: Fatal Error (1): Call to undefined method PHPUnit_Framework_AssertionFailedError::getComparisonFailure() in [/Users/alairock/Sites/eatpaste/lib/Cake/TestSuite/Reporter/CakeHtmlReporter.php, line 252]
+2012-07-29 18:59:38 Error: [FatalErrorException] Call to undefined method PHPUnit_Framework_AssertionFailedError::getComparisonFailure()
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/alairock...', 252)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/alairock...', 252, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/alairock...', 252, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:07:18 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:07:18 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:12:19 Error: Fatal Error (1): Call to a member function highlight() on a non-object in [/Users/alairock/Sites/eatpaste/app/View/Pastes/view.ctp, line 16]
+2012-07-29 19:12:19 Error: [FatalErrorException] Call to a member function highlight() on a non-object
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/alairock...', 16)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/alairock...', 16, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/alairock...', 16, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:14:14 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:14:14 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:14:15 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:14:15 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:14:22 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:14:22 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:14:23 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:14:23 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:14:24 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:14:24 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:14:25 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:14:25 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:14:27 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:14:27 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:14:27 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:14:27 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:14:27 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:14:27 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:14:28 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:14:28 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:14:28 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:14:28 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:14:28 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:14:28 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:14:28 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:14:28 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:14:29 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:14:29 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:15:13 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:15:13 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:15:14 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:15:14 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:15:15 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:15:15 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:16:00 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:16:00 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:16:01 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:16:01 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:16:28 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:16:28 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:16:29 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:16:29 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:16:30 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:16:30 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:16:30 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:16:30 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:18:22 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:18:22 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:18:23 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:18:23 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:18:33 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:18:33 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:19:34 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:19:34 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:24:12 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:24:12 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:24:13 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:24:13 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:24:13 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:24:13 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:24:14 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:24:14 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:24:14 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:24:14 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:24:14 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:24:14 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:24:14 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:24:14 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:25:21 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:25:21 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:25:21 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:25:21 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:25:22 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:25:22 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:25:22 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:25:22 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:25:22 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:25:22 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:25:22 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:25:22 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:25:23 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:25:23 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:25:23 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:25:23 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:25:23 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:25:23 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:25:57 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:25:57 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:28:08 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:28:08 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:28:09 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:28:09 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:28:09 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:28:09 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:28:14 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:28:14 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:28:15 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:28:15 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:28:15 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:28:15 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:28:16 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:28:16 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:28:16 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:28:16 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:28:16 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:28:16 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:28:16 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:28:16 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:28:17 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:28:17 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:28:23 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:28:23 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:28:24 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:28:24 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:28:35 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:28:35 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:28:35 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:28:35 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:28:57 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:28:57 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:28:57 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:28:57 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:28:58 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:28:58 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:29:00 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:29:00 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:29:21 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:29:21 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:29:22 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:29:22 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:29:23 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 129]
+2012-07-29 19:29:23 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 129, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:30:06 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 130]
+2012-07-29 19:30:06 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 130)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 130, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 130, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:30:06 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 130]
+2012-07-29 19:30:06 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 130)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 130, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 130, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:30:11 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 130]
+2012-07-29 19:30:11 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 130)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 130, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 130, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:30:12 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 130]
+2012-07-29 19:30:12 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 130)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 130, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 130, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:30:13 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 130]
+2012-07-29 19:30:13 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 130)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 130, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 130, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:30:39 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 130]
+2012-07-29 19:30:39 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 130)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 130, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 130, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:30:40 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 130]
+2012-07-29 19:30:40 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 130)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 130, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 130, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:30:41 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 130]
+2012-07-29 19:30:41 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 130)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 130, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 130, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:35:45 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 130]
+2012-07-29 19:35:45 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 130)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 130, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 130, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:35:47 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 130]
+2012-07-29 19:35:47 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 130)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 130, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 130, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:38:19 Error: [MissingHelperException] Helper class GeshiHelper could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(861): HelperCollection->load('Geshi.Geshi', Array)
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(468): View->loadHelpers()
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#4 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#5 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-07-29 19:38:21 Error: [MissingHelperException] Helper class GeshiHelper could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(861): HelperCollection->load('Geshi.Geshi', Array)
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(468): View->loadHelpers()
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#4 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#5 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-07-29 19:38:22 Error: [MissingHelperException] Helper class GeshiHelper could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(861): HelperCollection->load('Geshi.Geshi', Array)
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(468): View->loadHelpers()
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#4 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#5 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-07-29 19:39:02 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 130]
+2012-07-29 19:39:02 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 130)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 130, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 130, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:40:01 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 130]
+2012-07-29 19:40:01 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 130)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 130, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 130, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:40:02 Error: Fatal Error (1): Class 'GeSHI' not found in [/Users/alairock/Sites/eatpaste/app/Plugin/Geshi/View/Helper/GeshiHelper.php, line 130]
+2012-07-29 19:40:02 Error: [FatalErrorException] Class 'GeSHI' not found
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 130)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'GeSHI' n...', '/Users/alairock...', 130, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'GeSHI' n...', '/Users/alairock...', 130, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:44:47 Error: [MissingActionException] Action PastesController::edit() could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-29 19:45:05 Error: [MissingActionException] Action PastesController::admin_index() could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-29 19:46:02 Error: [MissingActionException] Action PastesController::edit() could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-29 19:46:13 Error: [MissingActionException] Action PastesController::admin_index() could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-29 19:57:50 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 60]
+2012-07-29 19:57:50 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 60)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 60, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 60, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:57:52 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 60]
+2012-07-29 19:57:52 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 60)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 60, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 60, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:57:53 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 60]
+2012-07-29 19:57:53 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 60)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 60, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 60, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:57:54 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 60]
+2012-07-29 19:57:54 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 60)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 60, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 60, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:57:55 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 60]
+2012-07-29 19:57:55 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 60)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 60, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 60, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:57:55 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 60]
+2012-07-29 19:57:55 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 60)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 60, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 60, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:58:04 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 60]
+2012-07-29 19:58:04 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 60)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 60, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 60, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:58:05 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 60]
+2012-07-29 19:58:05 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 60)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 60, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 60, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:58:06 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 60]
+2012-07-29 19:58:06 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 60)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 60, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 60, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:58:16 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 60]
+2012-07-29 19:58:16 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 60)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 60, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 60, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:58:17 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 60]
+2012-07-29 19:58:17 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 60)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 60, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 60, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:58:18 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 60]
+2012-07-29 19:58:18 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 60)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 60, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 60, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:58:21 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 60]
+2012-07-29 19:58:21 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 60)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 60, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 60, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:58:23 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 60]
+2012-07-29 19:58:23 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 60)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 60, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 60, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:58:26 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 60]
+2012-07-29 19:58:26 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 60)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 60, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 60, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:58:27 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 60]
+2012-07-29 19:58:27 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 60)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 60, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 60, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:58:28 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 60]
+2012-07-29 19:58:28 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 60)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 60, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 60, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:58:29 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 60]
+2012-07-29 19:58:29 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 60)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 60, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 60, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:58:29 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 60]
+2012-07-29 19:58:29 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 60)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 60, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 60, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:58:30 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 60]
+2012-07-29 19:58:30 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 60)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 60, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 60, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:58:32 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 60]
+2012-07-29 19:58:32 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 60)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 60, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 60, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:58:33 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 60]
+2012-07-29 19:58:33 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 60)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 60, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 60, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:58:34 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 60]
+2012-07-29 19:58:34 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 60)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 60, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 60, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:58:38 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 60]
+2012-07-29 19:58:38 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 60)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 60, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 60, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:58:41 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 60]
+2012-07-29 19:58:41 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 60)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 60, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 60, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 19:59:03 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 60]
+2012-07-29 19:59:03 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 60)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 60, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 60, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 20:00:12 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/Controller/PastesController.php, line 60]
+2012-07-29 20:00:12 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 60)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 60, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 60, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 20:04:46 Error: [MissingActionException] Action PastesController::delete() could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-29 20:16:02 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 20:16:04 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 21:57:48 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 21:57:48 Error: [MissingControllerException] Controller class Styles.lessController could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 21:57:49 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 21:57:49 Error: [MissingControllerException] Controller class Styles.lessController could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 21:58:00 Error: [MissingControllerException] Controller class Styles.lessController could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 21:58:00 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 21:58:00 Error: [MissingControllerException] Controller class Styles.lessController could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 21:59:47 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 22:00:17 Error: [MissingControllerException] Controller class Styles.lessController could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 22:00:17 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 22:01:35 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 22:01:37 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 22:02:09 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 22:02:17 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 22:02:43 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 22:03:26 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 22:04:18 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 22:04:50 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 22:04:51 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 22:04:55 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 22:11:28 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 22:23:36 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 22:23:36 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 22:23:57 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 22:24:12 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 22:24:13 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-29 23:30:51 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/View/Layouts/default.ctp, line 24]
+2012-07-29 23:30:51 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 24, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 24, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 23:30:53 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/View/Layouts/default.ctp, line 24]
+2012-07-29 23:30:53 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 24, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 24, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-29 23:50:50 Error: [MissingHelperException] Helper class rootHelper could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/View/HelperCollection.php(62): HelperCollection->load('root')
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(812): HelperCollection->__isset('root')
+#2 /Users/alairock/Sites/eatpaste/app/View/Layouts/default.ctp(23): View->__get('root')
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(920): include('/Users/alairock...')
+#4 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(883): View->_evaluate('/Users/alairock...', Array)
+#5 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(539): View->_render('/Users/alairock...')
+#6 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(483): View->renderLayout('', 'default')
+#7 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#8 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#9 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-07-29 23:51:14 Error: [MissingActionException] Action UsersController::js() could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-29 23:51:21 Error: [MissingActionException] Action UsersController::js() could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-29 23:53:35 Error: [MissingActionException] Action UsersController::js() could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-30 00:08:42 Error: [MissingControllerException] Controller class EatpasteController could not be found.
+#0 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-30 00:33:34 Error: [MissingActionException] Action PastesController::edit() could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-30 00:48:57 Error: [MissingActionException] Action PastesController::edit() could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-30 00:49:00 Error: [MissingActionException] Action PastesController::edit() could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-30 00:49:07 Error: [MissingActionException] Action PastesController::edit() could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-30 00:49:21 Error: [MissingActionException] Action PastesController::edit() could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-30 01:00:15 Error: Fatal Error (64): Can't use method return value in write context in [/Users/alairock/Sites/eatpaste/app/View/Layouts/default.ctp, line 26]
+2012-07-30 01:00:15 Error: [FatalErrorException] Can't use method return value in write context
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Can't use metho...', '/Users/alairock...', 26)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use metho...', '/Users/alairock...', 26, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Can't use metho...', '/Users/alairock...', 26, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-30 01:00:17 Error: Fatal Error (64): Can't use method return value in write context in [/Users/alairock/Sites/eatpaste/app/View/Layouts/default.ctp, line 26]
+2012-07-30 01:00:17 Error: [FatalErrorException] Can't use method return value in write context
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Can't use metho...', '/Users/alairock...', 26)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use metho...', '/Users/alairock...', 26, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Can't use metho...', '/Users/alairock...', 26, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-30 01:04:44 Error: Fatal Error (64): Can't use method return value in write context in [/Users/alairock/Sites/eatpaste/app/View/Layouts/default.ctp, line 26]
+2012-07-30 01:04:44 Error: [FatalErrorException] Can't use method return value in write context
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Can't use metho...', '/Users/alairock...', 26)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use metho...', '/Users/alairock...', 26, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Can't use metho...', '/Users/alairock...', 26, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-30 01:05:39 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/View/HelperCollection.php(62): HelperCollection->load('Auth')
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(812): HelperCollection->__isset('Auth')
+#2 /Users/alairock/Sites/eatpaste/app/View/Layouts/default.ctp(21): View->__get('Auth')
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(920): include('/Users/alairock...')
+#4 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(883): View->_evaluate('/Users/alairock...', Array)
+#5 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(539): View->_render('/Users/alairock...')
+#6 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(483): View->renderLayout('', 'default')
+#7 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#8 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#9 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-07-30 01:05:42 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/View/HelperCollection.php(62): HelperCollection->load('Auth')
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(812): HelperCollection->__isset('Auth')
+#2 /Users/alairock/Sites/eatpaste/app/View/Layouts/default.ctp(21): View->__get('Auth')
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(920): include('/Users/alairock...')
+#4 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(883): View->_evaluate('/Users/alairock...', Array)
+#5 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(539): View->_render('/Users/alairock...')
+#6 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(483): View->renderLayout('', 'default')
+#7 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#8 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#9 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-07-30 01:07:37 Error: Fatal Error (1): Call to a member function user() on a non-object in [/Users/alairock/Sites/eatpaste/app/Model/AppModel.php, line 35]
+2012-07-30 01:07:37 Error: [FatalErrorException] Call to a member function user() on a non-object
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/alairock...', 35)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/alairock...', 35, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/alairock...', 35, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-30 01:07:48 Error: Fatal Error (1): Call to a member function user() on a non-object in [/Users/alairock/Sites/eatpaste/app/Model/AppModel.php, line 35]
+2012-07-30 01:07:48 Error: [FatalErrorException] Call to a member function user() on a non-object
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/alairock...', 35)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/alairock...', 35, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/alairock...', 35, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-30 01:08:14 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/View/HelperCollection.php(62): HelperCollection->load('Auth')
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(812): HelperCollection->__isset('Auth')
+#2 /Users/alairock/Sites/eatpaste/app/View/Layouts/default.ctp(21): View->__get('Auth')
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(920): include('/Users/alairock...')
+#4 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(883): View->_evaluate('/Users/alairock...', Array)
+#5 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(539): View->_render('/Users/alairock...')
+#6 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(483): View->renderLayout('', 'default')
+#7 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#8 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#9 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-07-30 01:08:52 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/View/HelperCollection.php(62): HelperCollection->load('Auth')
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(812): HelperCollection->__isset('Auth')
+#2 /Users/alairock/Sites/eatpaste/app/View/Layouts/default.ctp(21): View->__get('Auth')
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(920): include('/Users/alairock...')
+#4 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(883): View->_evaluate('/Users/alairock...', Array)
+#5 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(539): View->_render('/Users/alairock...')
+#6 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(483): View->renderLayout('', 'default')
+#7 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#8 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#9 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-07-30 01:21:13 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/View/HelperCollection.php(62): HelperCollection->load('Auth')
+#1 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(812): HelperCollection->__isset('Auth')
+#2 /Users/alairock/Sites/eatpaste/app/View/Layouts/default.ctp(21): View->__get('Auth')
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(920): include('/Users/alairock...')
+#4 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(883): View->_evaluate('/Users/alairock...', Array)
+#5 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(539): View->_render('/Users/alairock...')
+#6 /Users/alairock/Sites/eatpaste/lib/Cake/View/View.php(483): View->renderLayout('', 'default')
+#7 /Users/alairock/Sites/eatpaste/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#8 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#9 /Users/alairock/Sites/eatpaste/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PastesController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/alairock/Sites/eatpaste/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-07-30 01:23:17 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/View/Layouts/default.ctp, line 21]
+2012-07-30 01:23:17 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 21, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 21, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-30 02:25:22 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/View/Pastes/view.ctp, line 8]
+2012-07-30 02:25:22 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 8, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 8, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-30 02:25:23 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/View/Pastes/view.ctp, line 8]
+2012-07-30 02:25:23 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 8, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 8, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-30 02:25:24 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/View/Pastes/view.ctp, line 8]
+2012-07-30 02:25:24 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 8, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 8, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-30 02:25:29 Error: Fatal Error (4): parse error in [/Users/alairock/Sites/eatpaste/app/View/Pastes/view.ctp, line 8]
+2012-07-30 02:25:29 Error: [FatalErrorException] parse error
+#0 /Users/alairock/Sites/eatpaste/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'parse error', '/Users/alairock...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/alairock...', 8, Array)
+#2 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/alairock...', 8, Array)
+#3 /Users/alairock/Sites/eatpaste/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

@@ -57,26 +57,9 @@
  * unix_socket =>
  * For MySQL to connect via socket specify the `unix_socket` parameter instead of `host` and `port`
  */
-
-
-class DATABASE_CONFIG {
-
-	public $default = array(
-		'datasource' => 'Database/Mysql',
-		'persistent' => false,
-		'host' => 'localhost',
-		'login' => 'local',
-		'password' => 'local',
-		'database' => 'eatpaste',
-		'prefix' => 'ep_',
-	);
+$currentDir = getcwd();
+$root = str_replace('/app/webroot', '', $currentDir);
+$dbFile = $root . '/database.php';
+if(file_exists($dbFile)) {
+	include($dbFile);
 }
-
-
-// Use after baking!!!!
-// $currentDir = getcwd();
-// $root = str_replace('/app/webroot', '', $currentDir);
-// $dbFile = $root . '/database.php';
-// if(file_exists($dbFile)) {
-// 	include($dbFile);
-// }
