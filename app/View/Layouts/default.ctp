@@ -40,7 +40,10 @@
 		<div class="footer-inner">
 			<div class="footer-left">&copy;<?php echo date('Y'); ?> sixteenink | <a href="http://twitter.com/alairock">alairock</a></div>
 			<div class="footer-right">Eat. Paste. Remember (Your code!)</div>
-		</div
+			<?php if (isset($auth) and $auth): ?>
+			<div class="footer-bottom"><a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/80x15.png" /></a> &nbsp;<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">EatPaste!</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://alairock.github.com/eatpaste" property="cc:attributionName" rel="cc:attributionURL">alairock</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.</div>
+		<?php endif; ?>
+		</div>
 	</div>
 <?php 		echo $this->element('sql_dump');  ?>
 </body>
