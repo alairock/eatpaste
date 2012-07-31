@@ -15,6 +15,8 @@
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
+
+		echo $this->Html->script('jquery');
 	?>
 </head>
 <body onload="sh_highlightDocument();">
@@ -36,6 +38,7 @@
 
 		<?php echo $this->fetch('content'); ?>
 	</div>
+
 	<div class="footer">
 		<div class="footer-inner">
 			<div class="footer-left">&copy;<?php echo date('Y'); ?> sixteenink | <a href="http://twitter.com/alairock">alairock</a></div>
@@ -46,5 +49,12 @@
 		</div>
 	</div>
 <?php 		echo $this->element('sql_dump');  ?>
+	<script>
+	var content = $('.content').height() - 100;
+	var lewindow = $(window).height();
+	if (content < lewindow) {
+		$('.content').height(lewindow - 120);
+	}
+	</script>
 </body>
 </html>
