@@ -15,8 +15,7 @@
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
-
-		echo $this->Html->script('jquery');
+		
 	?>
 </head>
 <body onload="sh_highlightDocument();">
@@ -37,6 +36,7 @@
 		<?php echo $this->Session->flash(); ?>
 
 		<?php echo $this->fetch('content'); ?>
+		<div class="push"></div>
 	</div>
 
 	<div class="footer">
@@ -49,12 +49,5 @@
 		</div>
 	</div>
 <?php 		echo $this->element('sql_dump');  ?>
-	<script>
-	var content = $('.content').height() - 100;
-	var lewindow = $(window).height();
-	if (content < lewindow) {
-		$('.content').height(lewindow - 120);
-	}
-	</script>
 </body>
 </html>
