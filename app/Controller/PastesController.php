@@ -8,8 +8,6 @@ App::uses('AppController', 'Controller');
  */
 class PastesController extends AppController {
 
-	var $helpers = array('Geshi.Geshi');
-
 /**
  * index method
  *

@@ -6,18 +6,18 @@
     <?php echo $this->Html->charset(); ?>
 	<title> EatPaste - Eat. Paste. Remember (Your code!) </title>
 	<link rel="stylesheet/less" type="text/css" href="<?php echo $this->webroot; ?>css/styles.less">
+	<link type="text/css" rel="stylesheet" href="http://shjs.sourceforge.net/sh_style.css">
 	<script src="<?php echo $this->webroot; ?>js/less.js" type="text/javascript"></script>
+	<script src="http://shjs.sourceforge.net/sh_main.min.js" type="text/javascript"></script>
 	<?php
 		echo $this->Html->meta('icon');
-
-		echo $this->Html->css('twilight');
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
 	?>
 </head>
-<body>
+<body onload="sh_highlightDocument();">
 	<div class="header">
 		<div class="header-inner">
 			<div class="header-left"><?php echo $this->Html->link('Eat Paste!', '/', array('class' => 'title')); ?></div>
