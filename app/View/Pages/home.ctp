@@ -14,6 +14,7 @@
 			<?php $sqlData = str_replace('users', $_POST['dbprefix'] . 'users', $sqlData); ?>
 			<?php $sqlData = str_replace('paste_username', $_POST['username'], $sqlData); ?>
 			<?php $sqlData = str_replace('paste_password', AuthComponent::password($_POST['password']), $sqlData); ?>
+			<?php $sqlData = str_replace('paste_email', $_POST['email'], $sqlData); ?>
 			<div class="body-block">
 				<?php pr($sqlData);  ?>
 			</div>
@@ -50,9 +51,10 @@
 <div class="row-fluid">
 	<div class="span2"></div><!-- Temporary hack, until the next version of TwitterBootstrap fixes fluid-offsets -->
 	<div class="span8 grayLighter body-container no-border-top">
-		<h3>Set Admin Username and Password!</h3>
+		<h3>Set Admin Settings!</h3>
 		<p><?php echo '<input name="username" placeholder="Admin Username">'; ?></p>
 		<p><?php echo '<input name="password" placeholder="Admin Password">'; ?></p>
+		<p><?php echo '<input name="email" placeholder="Email Address">'; ?></p>
 		<p><?php echo '<input type="submit" class="btn btn-success" /></form>'; ?></p>
 	</div>
 </div>
