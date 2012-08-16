@@ -22,6 +22,7 @@ class PastesController extends AppController {
 		);
 		$pasteCount = $this->Paste->find('first'); 
 	 		if (empty($pasteCount)) {
+	 			$this->Session->setFlash('No Pastes to display, add a new post prior to going to the Pastes page.');
 	 			$this->redirect(array('controller' => 'pastes', 'action' => 'add'));
 	 		}
 		$this->set('pastes', $this->paginate());
