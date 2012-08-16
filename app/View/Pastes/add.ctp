@@ -10,10 +10,3 @@
 	<?php echo $this->Form->submit(__('Submit'), array('class' => 'pull-right btn btn-success')); ?>
 	</div>
 </div>
-<div class="row-fluid">&nbsp;</div>
-<div class="row-fluid">
-	<div class="span2"></div><!-- Temporary hack, until the next version of TwitterBootstrap fixes fluid-offsets -->
-	<div class="span8 grayLighter body-container">
-		<h3>Widgets</h3>
-	</div>
-</div>

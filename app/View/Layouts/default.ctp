@@ -26,7 +26,7 @@
 			<?php if (isset($auth) and $auth): ?>
 			<img class="border" src="http://www.gravatar.com/avatar/<?php echo md5(strtolower(trim('skyler@sixteenink.com'))); ?>.jpg?s=24">
 			<?php echo $this->Html->link(__('New'), array('controller' => 'pastes', 'action' => 'add', 'admin' => false));?><?php echo $this->Html->link(__('Pastes'), array('controller' => 'pastes', 'action' => 'index', 'admin' => false));?>
-			<?php echo $this->Html->link(__('Account'), '#');?><?php echo $this->Html->link(__('Logout'), array('controller' => 'users', 'action' => 'logout', 'manager' => false, 'admin' => false)); ?> 
+			<?php // echo $this->Html->link(__('Account'), '#');?><?php echo $this->Html->link(__('Logout'), array('controller' => 'users', 'action' => 'logout', 'manager' => false, 'admin' => false)); ?> 
 				<?php else : ?>
 				<?php echo $this->Html->link(__('New'), array('controller' => 'pastes', 'action' => 'add', 'admin' => false));?><?php echo $this->Html->link(__('Pastes'), array('controller' => 'pastes', 'action' => 'index', 'admin' => false));?>
 			<?php echo $this->Html->link(__('Login'), array('controller' => 'users', 'action' => 'login', 'manager' => false, 'admin' => false));
@@ -37,7 +37,13 @@
 	<div class="container-fluid white body-page">		
 		<?php echo $this->Session->flash(); ?>
 		<?php echo $this->fetch('content'); ?>
+<div class="row-fluid">
+	<div class="span2"></div><!-- Temporary hack, until the next version of TwitterBootstrap fixes fluid-offsets -->
+	<div class="span8 grayLighter body-container no-border-top">
+		<h3>Widgets</h3>
 	</div>
+</div>
+	</div>	
 	<div class="footer">
 		<div class="footer-inner">
 			<div class="footer-left">&copy;<?php echo date('Y'); ?> EatPaste! is a <a href="http://sixteenink.com">sixteenink</a> project | EatPaste! Twitter: <a href="http://twitter.com/alairock">alairock</a></div>
