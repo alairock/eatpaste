@@ -8,6 +8,8 @@ App::uses('AppController', 'Controller');
  */
 class PastesController extends AppController {
 
+    public $helpers = array('Form', 'Html', 'Js', 'Time', 'TrimThree');
+	
 /**
  * index method
  *
@@ -15,6 +17,11 @@ class PastesController extends AppController {
  */
 	public function index() {
 		$this->Paste->recursive = 0;
+
+	$this->paginate = array(
+		'limit' => 8,
+	);
+
 		$this->set('pastes', $this->paginate());
 	}
 
@@ -53,9 +60,8 @@ class PastesController extends AppController {
 			} else {
 				$this->Session->setFlash(__('The paste could not be saved. Please, try again.'));
 			}
-		}	
-		$langsArray = array('css' => 'css', 'html' => 'html', 'php' => 'php', 'javascript' => 'javascript', 'python' => 'python', 'sql' => 'sql');
-		$this->set('langs', $langsArray);
+		}
+		$this->set('langs', Configure::read('languages'));
 	}
 
 /**
@@ -88,13 +94,14 @@ class PastesController extends AppController {
 		if ($this->request->is('post') || $this->request->is('put')) {
 			if ($this->Paste->save($this->request->data)) {
 				$this->Session->setFlash(__('The paste has been saved'));
-				$this->redirect(array('action' => 'index'));
+				$this->redirect(array('action' => 'index', 'admin' => false));
 			} else {
 				$this->Session->setFlash(__('The paste could not be saved. Please, try again.'));
 			}
 		} else {
 			$this->request->data = $this->Paste->read(null, $id);
 		}
+		$this->set('langs', Configure::read('languages'));
 	}
 
 /**

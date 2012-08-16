@@ -1,21 +1,12 @@
-<div class="pastes form">
-<?php echo $this->Form->create('Paste'); ?>
-	<fieldset>
-		<legend><?php echo __('Admin Edit Paste'); ?></legend>
+<div class="row-fluid">
+	<div class="span2"></div><!-- Temporary hack, until the next version of TwitterBootstrap fixes fluid-offsets -->
+	<div class="span8 grayLighter body-container"><?php echo $this->Form->create('Paste'); ?>
 	<?php
-		echo $this->Form->input('id');
-		echo $this->Form->input('title');
-		echo $this->Form->input('paste_data');
-		echo $this->Form->input('type');
+echo '<span class="pull-right">Language: ' . $this->Form->select('type', $langs) . '</span>';
+			echo $this->Form->input('title', array('placeholder' => 'Title', 'label' => false));
+			echo $this->Form->input('paste_data', array('placeholder' => 'Paste your code here!', 'label' => false, 'class' => 'pastebody', 'rows' => '15'));
 	?>
 	</fieldset>
-<?php echo $this->Form->end(__('Submit')); ?>
+<?php echo $this->Form->submit(__('Edit'), array('class' => 'btn btn-success pull-right')); ?>
 </div>
-<div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
-	<ul>
-
-		<li><?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $this->Form->value('Paste.id')), null, __('Are you sure you want to delete # %s?', $this->Form->value('Paste.id'))); ?></li>
-		<li><?php echo $this->Html->link(__('List Pastes'), array('action' => 'index')); ?></li>
-	</ul>
 </div>

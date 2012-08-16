@@ -35,6 +35,14 @@
 	Configure::write('debug', 2);
 
 	Configure::write('databaseFile', str_replace('/app/webroot', '', getcwd()) . '/database.php');
+	Configure::write('languages', array(
+		'css' => 'css', 
+		'html' => 'html', 
+		'php' => 'php', 
+		'javascript' => 'javascript', 
+		'python' => 'python', 
+		'sql' => 'sql'
+	));
 /**
  * Configure the Error handler used to handle errors for your application.  By default
  * ErrorHandler::handleError() is used.  It will display errors using Debugger, when debug > 0

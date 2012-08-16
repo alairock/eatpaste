@@ -1,3 +1,6 @@
+<div class="row-fluid">
+	<div class="span2"></div><!-- Temporary hack, until the next version of TwitterBootstrap fixes fluid-offsets -->
+	<div class="span8 grayLighter body-container">
 <?php App::uses('AuthComponent', 'Controller/Component'); ?>
 <?php if(empty($_POST)) { unset($_POST); } ?>
 <?php if(isset($_POST) && $_POST['username'] != '') : ?>
@@ -34,20 +37,31 @@
 <?php if (isset($_POST) && $_POST['username'] == ''): ?>
 	<span class="notice">The Username cannot be empty!</span>
 <?php endif; ?>
-<div class="body-block">
-	<h1>Installation of Eat Paste!</h1>
-	<h3>Enter your database credentials!</h3>
-	<p><?php echo '<form method="post" action="' . $this->webroot . '">'; ?></p>
-	<p><?php echo '<input name="dbhost" placeholder="Host" >'; ?></p>
-	<p><?php echo '<input name="dbuser" placeholder="Username">'; ?></p>
-	<p><?php echo '<input name="dbpass" placeholder="Password">'; ?></p>
-	<p><?php echo '<input name="dbname" placeholder="Name">'; ?></p>
-	<p><?php echo '<input name="dbprefix" placeholder="Prefix">'; ?></p>
-	<h3>Set Admin Username and Password!</h3>
-	<p><?php echo '<input name="username" placeholder="Admin Username">'; ?></p>
-	<p><?php echo '<input name="password" placeholder="Admin Password">'; ?></p>
-	<p><?php echo '<input type="submit" /></form>'; ?></p>
+		<h1>Installation of Eat Paste!</h1>
+		<h3>Enter your database credentials!</h3>
+		<p><?php echo '<form method="post" action="' . $this->webroot . '">'; ?></p>
+		<p><?php echo '<input name="dbhost" placeholder="Host" >'; ?></p>
+		<p><?php echo '<input name="dbuser" placeholder="Username">'; ?></p>
+		<p><?php echo '<input name="dbpass" placeholder="Password">'; ?></p>
+		<p><?php echo '<input name="dbname" placeholder="Name">'; ?></p>
+		<p><?php echo '<input name="dbprefix" placeholder="Prefix">'; ?></p>
+	</div>
+</div>
+<div class="row-fluid">
+	<div class="span2"></div><!-- Temporary hack, until the next version of TwitterBootstrap fixes fluid-offsets -->
+	<div class="span8 grayLighter body-container no-border-top">
+		<h3>Set Admin Username and Password!</h3>
+		<p><?php echo '<input name="username" placeholder="Admin Username">'; ?></p>
+		<p><?php echo '<input name="password" placeholder="Admin Password">'; ?></p>
+		<p><?php echo '<input type="submit" class="btn btn-success" /></form>'; ?></p>
+	</div>
+</div>
+<div class="row-fluid">
+	<div class="span2"></div><!-- Temporary hack, until the next version of TwitterBootstrap fixes fluid-offsets -->
+	<div class="span8 grayLighter body-container">
 <?php echo $this->element('checker'); ?>
 <div class="footer-bottom"><a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/80x15.png" /></a> &nbsp;<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">EatPaste!</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://alairock.github.com/eatpaste" property="cc:attributionName" rel="cc:attributionURL">alairock</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.</div>
 <?php endif; ?>
+
+</div>
 </div>

@@ -4,13 +4,16 @@
 .white { background-color: @white; }
 .grayLight { background-color: @grayLight; }
 .grayLighter { background-color: @grayLighter; }
+.hideme { display: none; }
 
 html, body {
 	height: 100%;
-	background-color: @white;
 	padding: 0px;	
 	margin: 0px;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+pre {
+	border: none !important;
 }
 a{
 	color: @grayDark;
@@ -19,7 +22,6 @@ h1, h2 {
 	color: white;
 	font-size: 35px;
 	font-family: @baseFontFamily;
-	text-shadow: 0px 2px 3px @grayDark;	
 	padding: 0px;
 	margin: 0px;
 }
@@ -34,6 +36,14 @@ table {
 	margin: auto;
 	width: 100%;
 }
+#flashMessage {
+	.alert;
+	.alert-success;
+	width: 400px;
+	margin: auto;
+	margin-bottom: 10px; 
+	margin-top: -10px;
+}
 .footer {
 	width: 100%;
 	position: relative;
@@ -43,7 +53,6 @@ table {
 	font-family: @baseFontFamily;
 	line-height: 40px;
 	font-size: 10px;
-	margin-top: 20px;
 	display: inline-block;
 }
 .footer a {
@@ -70,7 +79,7 @@ table {
 	-moz-box-shadow: 1px 1px @grayLight;
 	-webkit-box-shadow: 1px 1px @grayLight;
 	box-shadow: 1px 1px @grayLight;
-	margin-bottom: 20px;
+	margin-bottom: 1px;
 }
 .header-inner {
 	width: 960px;
@@ -126,40 +135,19 @@ table {
 
 /* Body */
 .body-container {
-	background-color: #grayLighter;
+	background-color: @grayLighter;
+	border: 1px solid @grayLight;
+	padding: 10px;
+	padding-right: 20px;
+}
+.no-border-top {
+	border-top: none;
+}
+.body-page {
+	padding: 20px 0px 20px 0px; 
 }
 
 /* add new button */
-.add-new {
-	-moz-box-shadow:inset 0px 1px 0px 0px #a4e271;
-	-webkit-box-shadow:inset 0px 1px 0px 0px #a4e271;
-	box-shadow:inset 0px 1px 0px 0px #a4e271;
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #89c403), color-stop(1, #77a809) );
-	background:-moz-linear-gradient( center top, #89c403 5%, #77a809 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#89c403', endColorstr='#77a809');
-	background-color:#89c403;
-	-moz-border-radius:4px;
-	-webkit-border-radius:4px;
-	border-radius:4px;
-	border:1px solid #74b807;
-	display:inline-block;
-	color:#ffffff;
-	font-family:arial;
-	font-size:20px;
-	font-weight:bold;
-	padding:5px 13px;
-	text-decoration:none;
-	text-shadow:1px 2px 8px #528009;
-	margin-right: 20px;
-}.add-new:hover {
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #77a809), color-stop(1, #89c403) );
-	background:-moz-linear-gradient( center top, #77a809 5%, #89c403 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77a809', endColorstr='#89c403');
-	background-color:#77a809;
-}.add-new:active {
-	position:relative;
-	top:1px;
-}
 .content {
 	width: 960px;
 	margin: auto;
@@ -173,41 +161,6 @@ table {
 .footer, .push {
 	height: 40px;
 }
-.body-block {
-	padding: 10px;
-}
-.nav-button {
-	-moz-box-shadow:inset 0px 1px 0px 0px #cae3fc;
-	-webkit-box-shadow:inset 0px 1px 0px 0px #cae3fc;
-	box-shadow:inset 0px 1px 0px 0px #cae3fc;
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #4197ee) );
-	background:-moz-linear-gradient( center top, #79bbff 5%, #4197ee 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#4197ee');
-	background-color:#79bbff;
-	-moz-border-radius:4px;
-	-webkit-border-radius:4px;
-	border-radius:4px;
-	border:1px solid #469df5;
-	display:inline-block;
-	color:#ffffff;
-	font-family:arial;
-	font-size:12px;
-	font-weight:bold;
-	padding:5px 13px;
-	text-decoration:none;
-	text-shadow:1px 2px 8px #287ace;
-	margin-right: 10px;
-	margin-top: 20px;
-}.nav-button:hover {
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4197ee), color-stop(1, #79bbff) );
-	background:-moz-linear-gradient( center top, #4197ee 5%, #79bbff 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#4197ee', endColorstr='#79bbff');
-	background-color:#4197ee;
-	cursor: pointer;
-}.nav-button:active {
-	position:relative;
-	top:1px;
-}
 .code {
 	margin-top: 50px;
 	background-color: @grayDark;
@@ -220,17 +173,40 @@ table {
 	border-radius: 10px;
 
 }
+/* Snippet body */
+.snippet {
+	border: 1px solid @grayLight;
+	background-color: @white;
+	margin-bottom: 20px; 
+}
+.snippet-body, .snippet-header, .snippet-footer {
+	padding: 8px;
+}
+.snippet-header {
+	border-bottom: #F7CA75;
+	background-color: #FFFEEB;
+	color: @grayDark;
+}
+.snippet-header span {
+	font-size: 10px;
+	font-weight: light;
+}
+.snippet-footer {
+	border-top: 1px solid @grayLight;
+	height: 20px;
+}
+
 /* form junk! */
 p > input, input#PasteTitle, input#UserUsername, input#UserPassword, textarea {
 	padding: 6px;
 	font-size: 14px;
 	width: 350px; 
 	border: 1px solid @grayLight;
-	-moz-border-radius: 4px;
-	-webkit-border-radius: 4px;
-	-khtml-border-radius: 4px;
-	border-radius: 4px;
 }
+.pastebody {
+	width: 100%;
+}
+
 .notice {
 	padding: 4px;
 	margin-top: 10px;
@@ -253,5 +229,155 @@ p > input, input#PasteTitle, input#UserUsername, input#UserPassword, textarea {
 }
 
 
+/* syntax highlighter - Themes can be found here: http://shjs.sourceforge.net/css/; */
+pre.sh_sourceCode {
+  color: #000000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_keyword {
+  color: #bb7977;
+  font-weight: bold;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_type {
+  color: #8080c0;
+  font-weight: bold;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_string {
+  color: #a68500;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_regexp {
+  color: #a68500;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_specialchar {
+  color: #ff00ff;
+  font-weight: bold;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_comment {
+  color: #ff8000;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_number {
+  color: #800080;
+  font-weight: bold;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_preproc {
+  color: #0080c0;
+  font-weight: bold;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_symbol {
+  color: #ff0080;
+  font-weight: bold;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_function {
+  color: #004466;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_cbracket {
+  color: #ff0080;
+  font-weight: bold;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_url {
+  color: #a68500;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_date {
+  color: #bb7977;
+  font-weight: bold;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_time {
+  color: #bb7977;
+  font-weight: bold;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_file {
+  color: #bb7977;
+  font-weight: bold;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_ip {
+  color: #a68500;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_name {
+  color: #a68500;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_variable {
+  color: #0080c0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_oldfile {
+  color: #ff00ff;
+  font-weight: bold;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_newfile {
+  color: #a68500;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_difflines {
+  color: #bb7977;
+  font-weight: bold;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_selector {
+  color: #0080c0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_property {
+  color: #bb7977;
+  font-weight: bold;
+  font-style: normal;
+}
+
+pre.sh_sourceCode .sh_value {
+  color: #a68500;
+  font-weight: normal;
+  font-style: normal;
+}
 
 
