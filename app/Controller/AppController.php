@@ -42,7 +42,12 @@ class AppController extends Controller {
 	);
 
 	public function beforeFilter() {
+		$databaseFile = Configure::read('databaseFile');
+		if(!file_exists($databaseFile)) {
+			$this->redirect('/');
+		}
 		$this->Auth->allow('index', 'view', 'add', 'home');
 		$this->set('auth', $this->Auth->user());
+
 	}
 }

@@ -1,5 +1,5 @@
-<div class="body-block">
 	<h2><?php echo __('Pastes'); ?></h2>
+	<?php echo $this->Html->link('Add New!', array('controller' => 'pastes', 'action' => 'add'), array('class' => 'btn btn-success pull-right')); ?>
 	<table cellpadding="0" cellspacing="0">
 	<?php
 	foreach ($pastes as $paste): ?>
@@ -31,4 +31,3 @@
 	'format' => __('Page {:page} of {:pages}')
 	));
 	?>
-</div>

@@ -41,43 +41,11 @@ class PastesControllerTest extends ControllerTestCase {
 	}
 
 /**
- * testEdit method
+ * testShorten method
  *
  * @return void
  */
-	public function testEdit() {
-	}
-
-/**
- * testDelete method
- *
- * @return void
- */
-	public function testDelete() {
-	}
-
-/**
- * testAdminIndex method
- *
- * @return void
- */
-	public function testAdminIndex() {
-	}
-
-/**
- * testAdminView method
- *
- * @return void
- */
-	public function testAdminView() {
-	}
-
-/**
- * testAdminAdd method
- *
- * @return void
- */
-	public function testAdminAdd() {
+	public function testShorten() {
 	}
 
 /**

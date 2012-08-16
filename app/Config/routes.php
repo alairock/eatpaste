@@ -25,11 +25,10 @@
  * its action called 'display', and we pass a param to select the view file
  * to use (in this case, /app/View/Pages/home.ctp)...
  */
-$currentDir = getcwd();
-$root = str_replace('/app/webroot', '', $currentDir);
-$dbFile = $root . '/database.php';
+
+$dbFile = Configure::read('databaseFile');
 if(file_exists($dbFile)) {
-	Router::connect('/', array('controller' => 'pastes', 'action' => 'index'));
+	Router::connect('/', array('controller' => 'pastes', 'action' => 'add'));
 } else {
 	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
 }
