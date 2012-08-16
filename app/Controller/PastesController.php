@@ -17,12 +17,15 @@ class PastesController extends AppController {
  */
 	public function index() {
 		$this->Paste->recursive = 0;
-
-	$this->paginate = array(
-		'limit' => 8,
-	);
-
+		$this->paginate = array(
+			'limit' => 8,
+		);
+		$pasteCount = $this->Paste->find('first'); 
+	 		if (empty($pasteCount)) {
+	 			$this->redirect(array('controller' => 'pastes', 'action' => 'add'));
+	 		}
 		$this->set('pastes', $this->paginate());
+
 	}
 
 /**

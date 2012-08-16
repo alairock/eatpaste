@@ -28,7 +28,7 @@
 
 $dbFile = Configure::read('databaseFile');
 if(file_exists($dbFile)) {
-	Router::connect('/', array('controller' => 'pastes', 'action' => 'add'));
+	Router::connect('/', array('controller' => 'pastes', 'action' => 'index'));
 } else {
 	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
 }
