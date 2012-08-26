@@ -26,17 +26,11 @@
  * to use (in this case, /app/View/Pages/home.ctp)...
  */
 
-$dbFile = Configure::read('databaseFile');
-if(file_exists($dbFile)) {
-	Router::connect('/', array('controller' => 'pastes', 'action' => 'index'));
+if (Configure::read('requireInstall')) {
+	Router::connect('/', array('controller' => 'installers', 'action' => 'index'));
 } else {
-	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
+	Router::connect('/', array('controller' => 'pastes', 'action' => 'index'));
 }
-
-/**
- * ...and connect the rest of 'Pages' controller's urls.
- */
-	Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
 
 /**
  * Load all plugin routes.  See the CakePlugin documentation on 

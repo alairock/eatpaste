@@ -33,14 +33,14 @@
  * In development mode, you need to click the flash message to continue.
  */
 	Configure::write('debug', 0);
-
-	Configure::write('databaseFile', str_replace('/app/webroot', '', getcwd()) . '/database.php');
+	Configure::write('requireInstall', 1);
+	Configure::write('databaseFile', str_replace('/webroot', '', getcwd()) . '/Config/database.php');
 	Configure::write('languages', array(
-		'css' => 'css', 
-		'html' => 'html', 
-		'php' => 'php', 
-		'javascript' => 'javascript', 
-		'python' => 'python', 
+		'css' => 'css',
+		'html' => 'html',
+		'php' => 'php',
+		'javascript' => 'javascript',
+		'python' => 'python',
 		'sql' => 'sql'
 	));
 /**
