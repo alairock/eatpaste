@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <?php echo $this->Html->charset(); ?>
-	<title> EatPaste - Eat. Paste. Remember (Your code!) </title>
+	<title> Rakune - Copy. Paste. Remember (Your code!) </title>
 
 	<link rel="stylesheet/less" type="text/css" href="<?php echo $this->webroot; ?>less/bootstrap.less">
 	<script src="<?php echo $this->webroot; ?>js/less.js" type="text/javascript"></script>
@@ -21,7 +21,7 @@
 <body onload="sh_highlightDocument();">
 	<div class="header">
 		<div class="header-inner">
-			<div class="header-left"><?php echo $this->Html->link('Eat Paste!', '/', array('class' => 'title')); ?></div>
+			<div class="header-left"><?php echo $this->Html->link('Rakune', '/', array('class' => 'title')); ?></div>
 			<div class="header-right">
 			<?php if (isset($auth) and $auth): ?>
 			<img class="border" src="http://www.gravatar.com/avatar/<?php echo md5(strtolower(trim('skyler@sixteenink.com'))); ?>.jpg?s=24">
@@ -46,8 +46,8 @@
 	</div>	
 	<div class="footer">
 		<div class="footer-inner">
-			<div class="footer-left">&copy;<?php echo date('Y'); ?> EatPaste! is a <a href="http://sixteenink.com">sixteenink</a> project | EatPaste! Twitter: <a href="http://twitter.com/alairock">alairock</a></div>
-			<div class="footer-right">Eat. Paste. Remember (Your code!)</div>
+			<div class="footer-left">&copy;<?php echo date('Y'); ?> Rakune is a <a href="http://sixteenink.com">sixteenink</a> project | Rakune Twitter: <a href="http://twitter.com/alairock">alairock</a></div>
+			<div class="footer-right">Copy. Paste. Remember (Your code!)</div>
 			<?php if (isset($auth) and $auth): ?>
 		<?php endif; ?>
 		</div>
