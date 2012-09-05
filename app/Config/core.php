@@ -32,8 +32,8 @@
  * In production mode, flash messages redirect after a time interval.
  * In development mode, you need to click the flash message to continue.
  */
-	Configure::write('debug', 0);
-	Configure::write('requireInstall', 1);
+	Configure::write('debug', 2);
+	Configure::write('version', '1.0.0');
 	Configure::write('databaseFile', str_replace('/webroot', '', getcwd()) . '/Config/database.php');
 	Configure::write('languages', array(
 		'css' => 'css',

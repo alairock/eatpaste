@@ -25,8 +25,9 @@
  * its action called 'display', and we pass a param to select the view file
  * to use (in this case, /app/View/Pages/home.ctp)...
  */
-
-if (Configure::read('requireInstall')) {
+include (APP . 'Config' . DS . 'database.php');
+$db = new DATABASE_CONFIG;
+if ($db->install) {
 	Router::connect('/', array('controller' => 'installers', 'action' => 'index'));
 } else {
 	Router::connect('/', array('controller' => 'pastes', 'action' => 'index'));

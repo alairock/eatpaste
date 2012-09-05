@@ -1,5 +1,7 @@
 <?php
 App::uses('AppController', 'Controller');
+App::uses('CakeSchema', 'Model');
+
 /**
  * Pastes Controller
  *
@@ -18,7 +20,8 @@ class InstallersController extends AppController {
  * @return void
  */
 	public function index() {
-		//
+		$this->autoRender = false;
+		pr($this->__updateSchema());
 	}
 
 /**
@@ -27,21 +30,54 @@ class InstallersController extends AppController {
  *
  * @return void
  */
-	public function removeInstallers() {
+	private function __removeInstallers() {
 		$this->autoRender = false;
-		//$this->setInstall('0');
 	}
 
 /**
- * setInstall method
- * Sets autoRender to false. No view required.
+ * __generateDatabaseConfigFile method
  *
  * @return void
  */
-	public function setInstall($boolean = 0) {
-		$this->autoRender = false;
-		$CoreFile = file_get_contents(APP . 'Config' . DS . 'core.php');
-		$CoreFile = str_replace("'requireInstall', 1)", "'requireInstall', 0)", $CoreFile);
-		file_put_contents(APP . 'Config' . DS . 'core.php', $CoreFile);
+	private function __generateDatabaseConfigFile($host, $login, $password, $databasename, $prefix) {
+		$file = "<?php class DATABASE_CONFIG { public \$default = array( 'datasource' => 'Database/Mysql', 'persistent' => false, 'host' => '$host', 'login' => '$login', 'password' => '$password', 'database' => '$databasename', 'prefix' => '$prefix', ); } ";
+		file_put_contents(APP . 'Config' . DS . 'database.php', $file);
+		return false;
+	}
+
+/**
+ * importSchema method
+ *
+ * @return void
+ */
+	private function __importSchema() {
+		$this->Schema = new CakeSchema();
+		$Schema = $this->Schema->load();
+		$db = ConnectionManager::getDataSource($this->Schema->connection);
+		$contents = "\n\n" . $db->dropSchema($Schema) . "\n\n" . $db->createSchema($Schema);
+		$this->Installer->query($contents);
+	}
+
+/**
+ * updateSchema method
+ *
+ * @return void
+ */
+	private function __updateSchema() {
+		$this->Schema = new CakeSchema();
+		$db = ConnectionManager::getDataSource($this->Schema->connection);
+		$options = array();
+		$Old = $this->Schema->read($options);
+		$Schema = $this->Schema->load();
+		$compare = $this->Schema->compare($Old, $Schema);
+		$contents = array();
+
+		if (empty($table)) {
+			foreach ($compare as $table => $changes) {
+				$update = $db->alterSchema(array($table => $changes), $table);
+			}
+		}
+		$this->Installer->query($update);
+
 	}
 }
