@@ -59,6 +59,8 @@
  */
 class DATABASE_CONFIG {
 
+	public $install = 1;
+
 	public $default = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,

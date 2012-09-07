@@ -1,4 +1,5 @@
 <?php
+App::uses('Option', 'Model');
 /**
  * Routes configuration
  *
@@ -25,13 +26,20 @@
  * its action called 'display', and we pass a param to select the view file
  * to use (in this case, /app/View/Pages/home.ctp)...
  */
-include (APP . 'Config' . DS . 'database.php');
+
+
+$option = new Option();
+$dbVersion = $option->find('first', array('name' => 'version'));
+
 $db = new DATABASE_CONFIG;
 if ($db->install) {
 	Router::connect('/', array('controller' => 'installers', 'action' => 'index'));
+} elseif (Configure::read('version') != $dbVersion['Option']['value'] ) {
+	Router::connect('/', array('controller' => 'upgrades', 'action' => 'index'));
 } else {
 	Router::connect('/', array('controller' => 'pastes', 'action' => 'index'));
 }
+
 
 /**
  * Load all plugin routes.  See the CakePlugin documentation on 
