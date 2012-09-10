@@ -8,6 +8,8 @@ App::uses('CakeSchema', 'Model');
  */
 class InstallersController extends AppController {
 
+	public $uses = false;
+
 	public function beforeFilter() {
 		parent::beforeFilter();
 		$this->Auth->allow();
@@ -20,6 +22,46 @@ class InstallersController extends AppController {
  */
 	public function index() {
 		//index
+	}
+
+/**
+ * database method
+ *
+ * @return void
+ */
+	public function database() {
+		 //stuff
+	}
+
+/**
+ * users method
+ *
+ * @return void
+ */
+	public function users() {
+		$databasePost = $this->request->data;
+		if ($this->__testConnection($databasePost['Installer']['hostname'], $databasePost['Installer']['dbuser'], $databasePost['Installer']['dbpass'], $databasePost['Installer']['dbname'])) {
+			$this->Session->setFlash('Connection is Sccessful.');
+			$this->__generateDatabaseConfigFile($databasePost['Installer']['hostname'], $databasePost['Installer']['dbuser'], $databasePost['Installer']['dbpass'], $databasePost['Installer']['dbname'], $databasePost['Installer']['dbprefix']);
+		} else {
+			$this->Session->setFlash('Cannot connect to database using those credentials. Try again');
+			$this->redirect($this->referer());
+		}
+		$this->set('database', $databasePost);
+	}
+
+/**
+ * __testConnection method
+ *
+ * @return void
+ */
+	private function __testConnection($dbhost, $dbuser, $dbpass, $dbname) {
+		$mysqli = @new mysqli($dbhost, $dbuser, $dbpass, $dbname);
+		if ($mysqli->connect_errno) {
+			return false;
+		} else {
+			return true;
+		}
 	}
 
 /**
@@ -38,7 +80,7 @@ class InstallersController extends AppController {
  * @return void
  */
 	private function __generateDatabaseConfigFile($host, $login, $password, $databasename, $prefix) {
-		$file = "<?php class DATABASE_CONFIG { public \$default = array( 'datasource' => 'Database/Mysql', 'persistent' => false, 'host' => '$host', 'login' => '$login', 'password' => '$password', 'database' => '$databasename', 'prefix' => '$prefix', ); } ";
+		$file = "<?php class DATABASE_CONFIG {\npublic $install = 1; \npublic \$default = array( \n'datasource' => 'Database/Mysql', \n'persistent' => false, \n'host' => '$host', \n'login' => '$login', \n'password' => '$password', \n'database' => '$databasename', \n'prefix' => '$prefix', \n); \n} ";
 		file_put_contents(APP . 'Config' . DS . 'database.php', $file);
 		return false;
 	}
