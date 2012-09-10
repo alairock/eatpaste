@@ -1,5 +1,4 @@
 <?php
-App::uses('Option', 'Model');
 /**
  * Routes configuration
  *
@@ -26,19 +25,11 @@ App::uses('Option', 'Model');
  * its action called 'display', and we pass a param to select the view file
  * to use (in this case, /app/View/Pages/home.ctp)...
  */
-
-
-$option = new Option();
-$dbVersion = $option->find('first', array('name' => 'version'));
-
-$db = new DATABASE_CONFIG;
-if ($db->install) {
+if (file_exists(APP . 'Config' . DS . 'install.php')) {
 	Router::connect('/', array('controller' => 'installers', 'action' => 'index'));
-} elseif (Configure::read('version') != $dbVersion['Option']['value'] ) {
-	Router::connect('/', array('controller' => 'upgrades', 'action' => 'index'));
-} else {
-	Router::connect('/', array('controller' => 'pastes', 'action' => 'index'));
 }
+	Router::connect('/', array('controller' => 'pastes', 'action' => 'index'));
+
 
 
 /**

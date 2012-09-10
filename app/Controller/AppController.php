@@ -42,12 +42,17 @@ class AppController extends Controller {
 	);
 
 	public function beforeFilter() {
-		$databaseFile = Configure::read('databaseFile');
-		if(!file_exists($databaseFile)) {
-			$this->redirect('/');
-		}
 		$this->Auth->allow('index', 'view', 'add', 'home');
 		$this->set('auth', $this->Auth->user());
-
+		if (!file_exists(APP . 'Config' . DS . 'install.php')) {
+			$this->loadModel('Option');
+			$Option = $this->Option->find('first', array('name' => 'version'));
+			if ( $Option['Option']['value'] != Configure::read('version')) {
+				$this->Session->setFlash('Database Requires Upgrade!');
+			}
+		}
+		if (file_exists(APP . 'Config' . DS . 'install.php') AND $this->name != 'Installers' ) {
+			$this->redirect(array('controller' => 'Installers', 'action' => 'index'));
+		}
 	}
 }
