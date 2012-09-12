@@ -10,7 +10,11 @@
 		<div class="span4">
 			<h1>EatPaste!</h1>
 			<p>
-			<?php pr($database); ?>
+				<?php echo $this->Form->create('Installer', array('action' => 'complete')); ?>
+				<?php echo $this->Form->input('adminUsername', array('label' => false, 'placeholder' => 'Admin Username')); ?>
+				<?php echo $this->Form->input('adminPassword', array('label' => false, 'placeholder' => 'Admin Password')); ?>
+				<?php echo $this->Form->input('adminEmail', array('label' => false, 'placeholder' => 'you@yourdomain.com')); ?>
+				<?php echo $this->Form->submit('Next', array('class' => 'btn btn-success')); ?>
 			</p>
 		</div>
 	</div>

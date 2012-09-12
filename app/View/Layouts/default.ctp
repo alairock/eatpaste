@@ -52,6 +52,6 @@
 		<?php endif; ?>
 		</div>
 	</div>
-<?php 		echo $this->element('sql_dump');  ?>
+<div class="white">	<?php 		echo $this->element('sql_dump');  ?></div>
 </body>
 </html>
