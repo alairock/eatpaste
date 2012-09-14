@@ -1,13 +1,13 @@
 <?php
 App::uses('AppController', 'Controller');
-App::uses('CakeSchema', 'Model');
+
 
 
 /**
  * Installers Controller
  *
  */
-class InstallersController extends AppController {
+class InstallersController extends InstallAppController {
 
 	
 
@@ -61,8 +61,14 @@ class InstallersController extends AppController {
  */
 	public function complete() {
 		$complete = $this->request->data;
-		$this->__importSchema();
-		$this->__importData();
+		pr($this->Installer->importData()); exit;
+		if ( !$this->Installer->importSchema() ) {
+			pr('failed to save data');
+		} 
+		if ( !$this->Installer->importData() ) {
+			pr('failed to import data');
+		}
+		 exit;
 		$this->set('complete', $complete);
 	}
 
@@ -81,16 +87,6 @@ class InstallersController extends AppController {
 	}
 
 /**
- * removeInstallers method
- * Sets autoRender to false. No view required.
- *
- * @return void
- */
-	private function __removeInstallers() {
-		$this->autoRender = false;
-	}
-
-/**
  * __generateDatabaseConfigFile method
  *
  * @return void
@@ -99,35 +95,6 @@ class InstallersController extends AppController {
 		$file = "<?php class DATABASE_CONFIG {\npublic \$default = array( \n'datasource' => 'Database/Mysql', \n'persistent' => false, \n'host' => '$host', \n'login' => '$login', \n'password' => '$password', \n'database' => '$databasename', \n'prefix' => '$prefix', \n); \n} ";
 		file_put_contents(APP . 'Config' . DS . 'database.php', $file);
 		return false;
-	}
-
-/**
- * importSchema method
- *
- * @return void
- */
-	private function __importSchema() {
-		$this->Schema = new CakeSchema();      
-		$Schema = $this->Schema->load();
-		$db = ConnectionManager::getDataSource($this->Schema->connection);
-		$contents = "\n\n" . $db->dropSchema($Schema) . "\n\n" . $db->createSchema($Schema);
-		$this->Installer->query($contents);
-	}
-/**
- * __importData method
- *
- * @return void
- */
-	private function __importData() {
-		include(APP . 'Config' . DS . 'initialData.php');
-		$this->loadModel('Option');
-		$this->loadModel('User');
-		if( $this->Option->saveMany($initialData) ) {
-			$this->User->create(); 
-			$this->User->saveMany($initialData);
-		} else {
-			pr('failed');
-		}
 	}
 
 }

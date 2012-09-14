@@ -21,6 +21,7 @@
  */
 
 App::uses('Model', 'Model');
+App::uses('CakeSchema', 'Model');
 
 /**
  * Application model for Cake.
@@ -31,4 +32,35 @@ App::uses('Model', 'Model');
  * @package       app.Model
  */
 class AppModel extends Model {
+
+/**
+ * importSchema method
+ *
+ * @return void
+ */
+	public function importSchema() {
+		$this->Schema = new CakeSchema();      
+		$Schema = $this->Schema->load();
+		$db = ConnectionManager::getDataSource($this->Schema->connection);
+		$contents = "\n\n" . $db->dropSchema($Schema) . "\n\n" . $db->createSchema($Schema);
+		return $this->query($contents);
+	}
+
+/**
+ * importData method
+ *
+ * @return void
+ */
+	public function importData() {
+		$initialOptionData = array(
+			array( 'Option' => array( 'name' => 'version', 'value' => '1.0.0', )),
+			array( 'Option' => array( 'name' => 'non-version', 'value' => '1.0.2', )),
+		);
+		$initialUserData = array(
+			array( 'User' => array( 'username' => 'skyler', 'password' => 'hi', )),
+		);
+		$this->create();
+		return $this->saveMany($initialOptionData);
+		//$this->User->saveMany($initialUserData);
+	}
 }
