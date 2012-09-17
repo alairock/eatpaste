@@ -36,20 +36,13 @@ class AppController extends Controller {
 	public $components = array(
 		'Session',
 		'Auth' => array(
-			'loginRedirect' => array('controller' => 'pastes', 'action' => 'index'),
-			'logoutRedirect' => array('controller' => 'pastes', 'action' => 'index')
+			'loginRedirect' => array('controller' => 'pastes', 'action' => 'index', 'admin' => false),
+			'logoutRedirect' => array('controller' => 'pastes', 'action' => 'index', 'admin' => false),
 		)
 	);
 
 	public function beforeFilter() {
 		$this->set('auth', $this->Auth->user());
-		if (!file_exists(APP . 'Plugin' . DS . 'Install' . DS . 'Controller' . DS . 'InstallAppController.php')) {
-			$this->loadModel('Option');
-			$Option = $this->Option->find('first', array('name' => 'version'));
-			if ( $Option['Option']['value'] != Configure::read('version')) {
-				$this->Session->setFlash('Database Requires Upgrade!');
-			}
-		}
 		if (file_exists(APP . 'Plugin' . DS . 'Install' . DS . 'Controller' . DS . 'InstallAppController.php') AND $this->name != 'Installers' ) {
 			$this->redirect(array('plugin' => 'install', 'controller' => 'Installers', 'action' => 'index', 'admin' => false));
 		}
