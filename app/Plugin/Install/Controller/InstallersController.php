@@ -70,7 +70,17 @@ class InstallersController extends InstallAppController {
 			$this->User->create();
 			$this->User->save($this->request->data);
 		}
+		$this->__importData();
+		$this->set('complete', $this->request->data);
+		rename(APP . 'Plugin' . DS . 'Install' . DS . 'Controller' . DS . 'InstallAppController.php', APP . 'Plugin' . DS . 'Install' . DS . 'Controller' . DS . 'InstallAppControllerbak.php');
+	}
 
+/**
+ * __importData method
+ *
+ * @return void
+ */
+	private function __importData() {
 		$path = App::pluginPath('Install') . DS . 'Config' . DS . 'Data' . DS;
 		$dataObjects = App::objects('class', $path);
 		foreach ($dataObjects as $data) {
@@ -92,8 +102,6 @@ class InstallersController extends InstallAppController {
 				}
 			}
 		}
-		$this->set('complete', $this->request->data);
-		rename(APP . 'Plugin' . DS . 'Install' . DS . 'Controller' . DS . 'InstallAppController.php', APP . 'Plugin' . DS . 'Install' . DS . 'Controller' . DS . 'InstallAppControllerbak.php');
 	}
 
 /**
