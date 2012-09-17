@@ -18,6 +18,11 @@ class UsersController extends AppController {
 			throw new NotFoundException(__('Invalid user'));
 		}
 		$this->set('user', $this->User->read(null, $id));
+		$updatesRequired = $this->__updatesRequired();
+		if (!empty($updatesRequired)) {
+			$this->set('updateRequired', true);
+			$this->set('updateVersion', $updatesRequired[0]);
+		}
 	}
 
 	public function add() {
@@ -97,4 +102,43 @@ class UsersController extends AppController {
 	public function logout() {
 		$this->redirect($this->Auth->logout());
 	}
+
+/**
+ * __updatesRequired method
+ *
+ * @return void
+ */
+	private function __updatesRequired() {
+		App::uses('HttpSocket', 'Network/Http');
+		$this->Http = new HttpSocket();
+		$results = $this->Http->get('https://api.github.com/repos/alairock/eatpaste/tags');
+		$results = json_decode($results);
+		$versions = array();
+		foreach ($results as $resultsValue) {
+			$tags = get_object_vars($resultsValue);
+			$tag = str_replace('V', '', $tags['name']);
+			$liveV = Configure::read('version');
+			if( version_compare($tag, $liveV, '>') ) {
+				array_push($versions, $tag);
+			}
+		}
+		return $versions;
+	}
+
+/**
+ * __checkDbVersionIntegrity method
+ *
+ * @return void
+ */
+	private function __checkDbVersionIntegrity() {
+		if (!file_exists(APP . 'Plugin' . DS . 'Install' . DS . 'Controller' . DS . 'InstallAppController.php')) {
+			$this->loadModel('Option');
+			$Option = $this->Option->find('first', array('name' => 'version'));
+			if ( $Option['Option']['value'] != Configure::read('version')) {
+				return false;
+			}
+		}
+		return true;
+	}
+
 }

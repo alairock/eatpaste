@@ -1,6 +1,10 @@
 <div class="row-fluid">
 	<div class="span2"></div><!-- Temporary hack, until the next version of TwitterBootstrap fixes fluid-offsets -->
 	<div class="span8 grayLighter body-container">
+
+<?php if (@$updateRequired): ?>
+	<div class="alert">Upgrade Available! Version <?php echo $updateVersion; ?>. <?php echo $this->Html->link(__('Click Here.'), array('controller' => 'upgrades', 'action' => 'index', 'admin' => false)); ?></div>
+<?php endif; ?>
 <h2><?php  echo __('User'); ?></h2>
 <span class="pull-right"><?php echo $this->Html->link('Edit User', array('controller' => 'users', 'action' => 'edit', 'admin' => true, $user['User']['id']), array('class' => 'btn')); ?></span>
 	<table class-"table table-striped table-bordered">
