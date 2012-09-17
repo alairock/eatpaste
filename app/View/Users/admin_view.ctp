@@ -14,6 +14,10 @@
 			
 		</tr>
 		<tr>
+			<td><?php echo __('Email'); ?></td>
+			<td><?php echo h($user['User']['email']); ?></td>
+		</tr>
+		<tr>
 			<td><?php echo __('Password'); ?></td>
 			<td><?php echo $this->Html->link('Change Password', array('controller' => 'users', 'action' => 'change_password', 'admin' => true, $user['User']['id'])); ?></td>
 		</tr>

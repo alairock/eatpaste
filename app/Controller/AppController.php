@@ -42,7 +42,6 @@ class AppController extends Controller {
 	);
 
 	public function beforeFilter() {
-		$this->Auth->allow('index', 'view', 'add', 'home');
 		$this->set('auth', $this->Auth->user());
 		if (!file_exists(APP . 'Plugin' . DS . 'Install' . DS . 'Controller' . DS . 'InstallAppController.php')) {
 			$this->loadModel('Option');

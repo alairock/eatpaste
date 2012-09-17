@@ -24,12 +24,13 @@
 			<div class="header-left"><?php echo $this->Html->link('EatPaste!', '/', array('class' => 'title')); ?></div>
 			<div class="header-right">
 			<?php if (isset($auth) and $auth): ?>
-			<img class="border" src="http://www.gravatar.com/avatar/<?php echo md5(strtolower(trim('skyler@sixteenink.com'))); ?>.jpg?s=24">
+			<img class="border" src="http://www.gravatar.com/avatar/<?php echo md5(strtolower(trim($auth['email']))); ?>.jpg?s=24">
 			<?php echo $this->Html->link(__('New'), array('controller' => 'pastes', 'action' => 'add', 'admin' => false));?><?php echo $this->Html->link(__('Pastes'), array('controller' => 'pastes', 'action' => 'index', 'admin' => false));?>
 			<?php echo $this->Html->link(__('Account'), array('controller' => 'users', 'action' => 'view', 'admin' => true, $auth['id']));?><?php echo $this->Html->link(__('Logout'), array('controller' => 'users', 'action' => 'logout', 'manager' => false, 'admin' => false)); ?> 
 				<?php else : ?>
 				<?php echo $this->Html->link(__('New'), array('controller' => 'pastes', 'action' => 'add', 'admin' => false));?><?php echo $this->Html->link(__('Pastes'), array('controller' => 'pastes', 'action' => 'index', 'admin' => false));?>
 			<?php echo $this->Html->link(__('Login'), array('controller' => 'users', 'action' => 'login', 'manager' => false, 'admin' => false));
+			echo $this->Html->link(__('Register'), array('controller' => 'users', 'action' => 'add', 'manager' => false, 'admin' => false));
 				endif; ?>
 			</div>
 		</div>
@@ -37,12 +38,7 @@
 	<div class="container-fluid white body-page">		
 		<?php echo $this->Session->flash(); ?>
 		<?php echo $this->fetch('content'); ?>
-<div class="row-fluid">
-	<div class="span2"></div><!-- Temporary hack, until the next version of TwitterBootstrap fixes fluid-offsets -->
-	<div class="span8 grayLighter body-container no-border-top">
-		<h3>Widgets</h3>
-	</div>
-</div>
+
 	</div>	
 	<div class="footer">
 		<div class="footer-inner">

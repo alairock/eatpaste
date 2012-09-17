@@ -8,7 +8,12 @@ App::uses('AppController', 'Controller');
  */
 class PastesController extends AppController {
 
-    public $helpers = array('Form', 'Html', 'Js', 'Time', 'TrimThree');
+	public $helpers = array('Form', 'Html', 'Js', 'Time', 'TrimThree');
+
+	public function beforeFilter() {
+		parent::beforeFilter();
+		$this->Auth->allow('index', 'view');
+	}
 	
 /**
  * index method
@@ -20,12 +25,12 @@ class PastesController extends AppController {
 		$this->paginate = array(
 			'limit' => 8,
 		);
-		$pasteCount = $this->Paste->find('first'); 
-	 		if (empty($pasteCount)) {
-	 			$this->Session->setFlash('No Pastes to display, add a new post prior to going to the Pastes page.');
-	 			$this->redirect(array('controller' => 'pastes', 'action' => 'add'));
-	 		}
-		$this->set('pastes', $this->paginate());
+		$pasteCount = $this->paginate();
+			if (empty($pasteCount)) {
+				$this->Session->setFlash('No Pastes to display, add a new post prior to going to the Pastes page.');
+				$this->redirect(array('controller' => 'pastes', 'action' => 'add'));
+			}
+		$this->set('pastes', $pasteCount);
 
 	}
 

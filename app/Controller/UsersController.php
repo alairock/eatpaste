@@ -4,7 +4,7 @@ class UsersController extends AppController {
 
 	public function beforeFilter() {
 		parent::beforeFilter();
-		$this->Auth->allow('add', 'logout');
+		$this->Auth->allow('logout');
 	}
 
 	public function admin_index() {
@@ -40,7 +40,25 @@ class UsersController extends AppController {
 		if ($this->request->is('post') || $this->request->is('put')) {
 			if ($this->User->save($this->request->data)) {
 				$this->Session->setFlash(__('The user has been saved'));
-				$this->redirect(array('action' => 'index'));
+				$this->redirect(array('action' => 'view', $id));
+			} else {
+				$this->Session->setFlash(__('The user could not be saved. Please, try again.'));
+			}
+		} else {
+			$this->request->data = $this->User->read(null, $id);
+			unset($this->request->data['User']['password']);
+		}
+	}
+
+	public function admin_change_password($id = null) {
+		$this->User->id = $id;
+		if (!$this->User->exists()) {
+			throw new NotFoundException(__('Invalid user'));
+		}
+		if ($this->request->is('post') || $this->request->is('put')) {
+			if ($this->User->save($this->request->data)) {
+				$this->Session->setFlash(__('The user has been saved'));
+				$this->redirect(array('action' => 'view', $id));
 			} else {
 				$this->Session->setFlash(__('The user could not be saved. Please, try again.'));
 			}
