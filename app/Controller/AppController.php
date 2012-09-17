@@ -51,7 +51,7 @@ class AppController extends Controller {
 			}
 		}
 		if (file_exists(APP . 'Plugin' . DS . 'Install' . DS . 'Controller' . DS . 'InstallAppController.php') AND $this->name != 'Installers' ) {
-			$this->redirect(array('plugin' => 'install', 'controller' => 'Installers', 'action' => 'index'));
+			$this->redirect(array('plugin' => 'install', 'controller' => 'Installers', 'action' => 'index', 'admin' => false));
 		}
 	}
 }

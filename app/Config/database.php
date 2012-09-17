@@ -63,8 +63,8 @@ class DATABASE_CONFIG {
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost',
-		'login' => 'local',
-		'password' => 'local',
+		'login' => 'username',
+		'password' => 'password',
 		'database' => 'eatpaste',
 		'prefix' => 'ep_',
 	);
