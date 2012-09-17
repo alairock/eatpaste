@@ -33,7 +33,7 @@
  * In development mode, you need to click the flash message to continue.
  */
 	Configure::write('debug', 2);
-	Configure::write('version', '1.0.0');
+	Configure::write('version', '0.9.0');
 	Configure::write('databaseFile', str_replace('/webroot', '', getcwd()) . '/Config/database.php');
 	Configure::write('languages', array(
 		'css' => 'css',
