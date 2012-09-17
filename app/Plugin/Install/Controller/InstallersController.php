@@ -14,7 +14,7 @@ class InstallersController extends InstallAppController {
 	public function beforeFilter() {
 		parent::beforeFilter();
 		$this->Auth->allow();
-		if (!file_exists(APP . 'Config' . DS . 'install.php')) {
+		if (!file_exists(APP . 'Plugin' . DS . 'Install' . DS . 'Controller' . DS . 'InstallAppController.php')) {
 			$this->Session->setFlash('You dont need to be in the installer! Your application is already installed.');
 			$this->redirect(array('controller' => 'pastes', 'action' => 'index'));
 		}
@@ -56,20 +56,44 @@ class InstallersController extends InstallAppController {
 	}
 
 /**
- * complete me$complete = $this->request->data;
+ * complete me
  * @return void
  */
 	public function complete() {
-		$complete = $this->request->data;
-		pr($this->Installer->importData()); exit;
-		if ( !$this->Installer->importSchema() ) {
-			pr('failed to save data');
-		} 
-		if ( !$this->Installer->importData() ) {
-			pr('failed to import data');
+		if (!empty($this->request->data)) {
+			if ( !$this->Installer->importSchema() ) {
+				pr('failed to save data');
+			}
+			$this->loadModel('User');
+			$this->request->data['User'] = $this->request->data['Installer'];
+			unset($this->request->data['Installer']);
+			$this->User->create();
+			$this->User->save($this->request->data);
 		}
-		 exit;
-		$this->set('complete', $complete);
+
+		$path = App::pluginPath('Install') . DS . 'Config' . DS . 'Data' . DS;
+		$dataObjects = App::objects('class', $path);
+		foreach ($dataObjects as $data) {
+			include ($path . $data . '.php');
+			$classVars = get_class_vars($data);
+			$modelAlias = substr($data, 0, -4);
+			$table = $classVars['table'];
+			$records = $classVars['records'];
+			App::uses('Model', 'Model');
+			$modelObject = new Model(array(
+						'name' => $modelAlias,
+						'table' => $table,
+						'ds' => 'default',
+			));
+			if (is_array($records) && count($records) > 0) {
+				foreach ($records as $record) {
+					$modelObject->create();
+					$modelObject->save($record);
+				}
+			}
+		}
+		$this->set('complete', $this->request->data);
+		rename(APP . 'Plugin' . DS . 'Install' . DS . 'Controller' . DS . 'InstallAppController.php', APP . 'Plugin' . DS . 'Install' . DS . 'Controller' . DS . 'InstallAppControllerbak.php');
 	}
 
 /**

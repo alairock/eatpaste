@@ -10,7 +10,12 @@
 		<div class="span4">
 			<h1>EatPaste!</h1>
 			<p>
-				Installation complete! You may now login with the username and password that you provided, <?php echo $this->Html->link('here', array('controller' => 'users', 'action' => 'login')); ?>.
+				Installation complete! You may now login with the username and password that you provided, <?php echo $this->Html->link('here', array('plugin' => false, 'controller' => 'users', 'action' => 'login')); ?>.
+			</p>
+			<p> 
+				Username: <b><?php echo $complete['User']['username']; ?></b><br>
+				Password: <b><?php echo $complete['User']['password']; ?></b><br>
+				Email: <b><?php echo $complete['User']['email']; ?></b><br>
 			</p>
 		</div>
 	</div>

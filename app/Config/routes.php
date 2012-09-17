@@ -25,9 +25,7 @@
  * its action called 'display', and we pass a param to select the view file
  * to use (in this case, /app/View/Pages/home.ctp)...
  */
-if (file_exists(APP . 'Config' . DS . 'install.php')) {
-	Router::connect('/', array('controller' => 'installers', 'action' => 'index'));
-}
+
 	Router::connect('/', array('controller' => 'pastes', 'action' => 'index'));
 
 

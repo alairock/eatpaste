@@ -44,15 +44,15 @@ class AppController extends Controller {
 	public function beforeFilter() {
 		$this->Auth->allow('index', 'view', 'add', 'home');
 		$this->set('auth', $this->Auth->user());
-		if (!file_exists(APP . 'Config' . DS . 'install.php')) {
+		if (!file_exists(APP . 'Plugin' . DS . 'Install' . DS . 'Controller' . DS . 'InstallAppController.php')) {
 			$this->loadModel('Option');
 			$Option = $this->Option->find('first', array('name' => 'version'));
 			if ( $Option['Option']['value'] != Configure::read('version')) {
 				$this->Session->setFlash('Database Requires Upgrade!');
 			}
 		}
-		if (file_exists(APP . 'Config' . DS . 'install.php') AND $this->name != 'Installers' ) {
-			$this->redirect(array('controller' => 'Installers', 'action' => 'index'));
+		if (file_exists(APP . 'Plugin' . DS . 'Install' . DS . 'Controller' . DS . 'InstallAppController.php') AND $this->name != 'Installers' ) {
+			$this->redirect(array('plugin' => 'install', 'controller' => 'Installers', 'action' => 'index'));
 		}
 	}
 }
