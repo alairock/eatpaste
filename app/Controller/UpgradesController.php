@@ -14,10 +14,13 @@ class UpgradesController extends AppController {
 	}
 
 	public function index() {
-		$this->autoRender = false;
-		pr('upgrader');
+		$upgrades = $this->__getUpgrades();
+		$this->set(__('upgrades'), str_replace('V', '', $upgrades[0]['name']));
 	}
 
+	public function upgrade() {
+		$this->set('upgrades', array_reverse($this->__getUpgrades()));
+	}
 /**
  * updateSchema method
  *
@@ -39,4 +42,27 @@ class UpgradesController extends AppController {
 		}
 		$this->Installer->query($update);
 	}
+
+/**
+ * __getUpgrades method
+ *
+ * @return void
+ */
+	public function __getUpgrades() {
+		App::uses('HttpSocket', 'Network/Http');
+		$this->Http = new HttpSocket();
+		$results = $this->Http->get('https://api.github.com/repos/alairock/eatpaste/tags');
+		$results = json_decode($results);
+		$versions = array();
+		foreach ($results as $resultsValue) {
+			$tags = get_object_vars($resultsValue);
+			$tag = str_replace('V', '', $tags['name']);
+			$liveV = Configure::read('version');
+			if( version_compare($tag, $liveV, '>') ) {
+				array_push($versions, $tags);
+			}
+		}
+		return $versions;
+	}
+
 }
